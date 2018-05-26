@@ -15023,3 +15023,39 @@
 2018-05-26 11:22:25,630 INFO 11368 [egg-mysql] instance[1] status OK, rds currentTime: Sat May 26 2018 11:22:16 GMT+0800 (中国标准时间)
 2018-05-26 11:22:25,637 INFO 11368 [egg:core] dump config after ready, 5ms
 2018-05-26 11:22:51,276 INFO 11368 [egg-view-nunjucks] loading templates from ["C:\\Users\\Administrator\\Desktop\\egg\\eggjs\\app\\view"]
+2018-05-26 11:39:16,654 INFO 1072 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\egg\\eggjs\\logs\\eddjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eddjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-26 11:39:16,708 INFO 1072 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\egg\eggjs\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-05-26 11:39:16,708 INFO 1072 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\egg\eggjs\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-05-26 11:39:16,833 INFO 1072 [egg-mysql] connecting misheng@47.100.23.203:3306/customer
+2018-05-26 11:39:16,894 INFO 1072 [egg-mysql] connecting misheng@47.100.23.203:3306/zhangxiangsheng
+2018-05-26 11:39:17,992 INFO 1072 [egg-static] starting static serve  -> C:\Users\Administrator\Desktop\egg\eggjs\app\public
+2018-05-26 11:39:18,000 INFO 1072 [egg-security] use csrf middleware
+2018-05-26 11:39:18,001 INFO 1072 [egg-security] use methodnoallow middleware
+2018-05-26 11:39:18,002 INFO 1072 [egg-security] use noopen middleware
+2018-05-26 11:39:18,002 INFO 1072 [egg-security] use nosniff middleware
+2018-05-26 11:39:18,003 INFO 1072 [egg-security] use xssProtection middleware
+2018-05-26 11:39:18,003 INFO 1072 [egg-security] use dta middleware
+2018-05-26 11:39:18,003 INFO 1072 [egg-security] compose 6 middlewares into one security middleware
+2018-05-26 11:39:18,182 INFO 1072 [egg:core] dump config after load, 9ms
+2018-05-26 11:39:18,205 INFO 1072 [egg-watcher:app] watcher start success
+2018-05-26 11:39:18,282 INFO 1072 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 26 2018 11:39:10 GMT+0800 (中国标准时间)
+2018-05-26 11:39:18,283 INFO 1072 [egg-mysql] instance[1] status OK, rds currentTime: Sat May 26 2018 11:39:10 GMT+0800 (中国标准时间)
+2018-05-26 11:39:18,288 INFO 1072 [egg:core] dump config after ready, 4ms
+2018-05-26 11:39:58,204 INFO 3728 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\egg\\eggjs\\logs\\eddjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eddjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-26 11:39:58,261 INFO 3728 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\egg\eggjs\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-05-26 11:39:58,261 INFO 3728 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\egg\eggjs\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-05-26 11:39:58,413 INFO 3728 [egg-mysql] connecting misheng@47.100.23.203:3306/customer
+2018-05-26 11:39:58,481 INFO 3728 [egg-mysql] connecting misheng@47.100.23.203:3306/zhangxiangsheng
+2018-05-26 11:39:59,144 INFO 3728 [egg-static] starting static serve  -> C:\Users\Administrator\Desktop\egg\eggjs\app\public
+2018-05-26 11:39:59,146 INFO 3728 [egg-security] use csrf middleware
+2018-05-26 11:39:59,147 INFO 3728 [egg-security] use methodnoallow middleware
+2018-05-26 11:39:59,147 INFO 3728 [egg-security] use noopen middleware
+2018-05-26 11:39:59,147 INFO 3728 [egg-security] use nosniff middleware
+2018-05-26 11:39:59,148 INFO 3728 [egg-security] use xssProtection middleware
+2018-05-26 11:39:59,148 INFO 3728 [egg-security] use dta middleware
+2018-05-26 11:39:59,148 INFO 3728 [egg-security] compose 6 middlewares into one security middleware
+2018-05-26 11:39:59,167 INFO 3728 [egg:core] dump config after load, 8ms
+2018-05-26 11:39:59,182 INFO 3728 [egg-watcher:app] watcher start success
+2018-05-26 11:39:59,269 INFO 3728 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 26 2018 11:39:51 GMT+0800 (中国标准时间)
+2018-05-26 11:39:59,271 INFO 3728 [egg-mysql] instance[1] status OK, rds currentTime: Sat May 26 2018 11:39:51 GMT+0800 (中国标准时间)
+2018-05-26 11:39:59,278 INFO 3728 [egg:core] dump config after ready, 7ms

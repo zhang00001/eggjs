@@ -53,8 +53,8 @@ export default class HomeController extends Controller {
     await this.ctx.render("page/services");
   }
   async getNews2() {
-  
-    await this.ctx.render("page/news-2");
+    let cases = await db.CaseModel.findAll();
+    await this.ctx.render("page/news-2", { cases });
   }
   async getNew() {
     let groups = await db.CategroyModel.findAll();

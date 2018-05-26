@@ -33,6 +33,7 @@ import { OSSFile } from "./oss-file";
 import { M2User } from "./m2-user";
 import { Categroy } from "./article_categroy";
 import { Comments } from "./comments";
+import { Cases } from "./case";
 // customer model
 
 export let userModel = User(zhangxiangsheng);
@@ -43,5 +44,6 @@ export let ossFileModel = OSSFile(zhangxiangsheng);
 export let m2UserModel = M2User(m2centraldb);
 export let CategroyModel = Categroy(zhangxiangsheng);
 export let CommentsModel = Comments(zhangxiangsheng);
+export let CaseModel = Cases(zhangxiangsheng);
 export { VerifyStatus };
 // m2 model
