@@ -1,20 +1,2 @@
-logs/
-npm-debug.log
-node_modules/
-coverage/
-.idea/
-run/
-logs/
-.DS_Store
-.vscode
-*.swp
-*.lock
-*.js
 
-app/**/*.js
-test/**/*.js
-config/**/*.js
-app/**/*.map
-test/**/*.map
-config/**/*.map
--Starter-master/src/pages/main-page
+node_modules/
