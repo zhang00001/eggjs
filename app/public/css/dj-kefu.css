@@ -1,0 +1,112 @@
+﻿.float-right-box.on {
+    width: 50px;
+}
+.float-right-box.on img{display:none;}
+.float-right-box {
+    width: 200px;
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    margin-bottom: -127px;
+    background-color: #191919;
+    z-index: 1000;
+    transition: width 0.3s ease 0s;
+}
+.float-right-box .top-list {
+    width: 100%;
+}
+.float-right-box .top-list ul {
+    width: 100%;
+    padding-left: 0!important;
+       margin-bottom: 0!important;
+	       margin-left: 0;
+}
+.float-right-box .top-list li {
+    float: left;
+    width: 100%;
+    position: relative;
+    list-style:none;
+    border-bottom: 1px solid #3b3b3b;
+    transition: background 0.3s ease 0s;
+    height: 50px;
+}
+.float-right-box .top-list a {
+    display: block;
+    width: 100%;
+}
+.float-right-box .top-list li img{
+margin-top:50px
+}
+.f-cb {
+    zoom: 1;
+}
+.float-right-box .top-list .stt {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 50px;
+    color: #fff;
+    transition: color 0.3s ease 0s;
+    position: absolute;
+    left: 28px;
+    top: 0;
+    z-index: 1;
+    width: 222px;
+}
+.fl {
+    float: left;
+    display: inline;
+}
+.float-right-box .top-list .ico {
+    display: inline-block;
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: background 0.3s ease 0s;
+    z-index: 2;
+}
+.float-right-box .top-list li:hover{background:#fff;}
+.float-right-box .top-list li:hover .stt{color:#15191e;}
+.float-right-box .top-list .ico2 {
+    background: url(../images/qq.png) no-repeat center #191919;
+}
+.float-right-box .top-list li:hover .ico2 {
+    background: url(../images/qq_h.png) no-repeat center #fff;
+}
+.float-right-box .top-list .ico3 {
+    background: url(../images/tel.png) no-repeat center #191919;
+}
+.float-right-box .top-list li:hover .ico3 {
+    background: url(../images/tel_h.png) no-repeat center #fff;
+}
+.float-right-box .top-list .ico6 {
+    background: url(../images/link.png) no-repeat center #191919;
+}
+.float-right-box .top-list li:hover .ico6 {
+    background: url(../images/link_h.png) no-repeat center #fff;
+}
+.float-right-box .top-list .ico7 {
+    background: url(../images/phone.png) no-repeat center #191919;
+}
+.float-right-box .top-list li:hover .ico7 {
+    background: url(../images/phone_h.png) no-repeat center #fff;
+}
+.float-right-box .top-list .ico5 {
+    background: url(../images/uparrow.png) no-repeat center #191919;
+}
+.float-right-box .top-list li:hover .ico5 {
+    background: url(../images/uparrow_h.png) no-repeat center #fff;
+}
+.float-right-box .top-list .ico8 {
+    background: url(../images/email.png) no-repeat center #191919;
+}
+.float-right-box .top-list li:hover .ico8 {
+    background: url(../images/email_h.png) no-repeat center #fff;
+}
+.float-right-box .top-list .ico9 {
+    background: url(../images/weixin.png) no-repeat center #191919;
+}
+.float-right-box .top-list li:hover .ico9 {
+    background: url(../images/weixin_h.png) no-repeat center #fff;
+}

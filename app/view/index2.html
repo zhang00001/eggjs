@@ -1,0 +1,1070 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+
+    <head>
+        <meta charset="utf-8">
+        <title>邦为商城</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0,minimal-ui">
+
+        <link rel="manifest" href="https://m.mi.com/static/manifest.json">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="m-mi-com">
+        <!-- <link rel="apple-touch-icon" href="https://m.mi.com/static/img/icons/apple-touch-icon-152x152.png"> -->
+        <!-- <meta name="msapplication-TileImage" content="https://m.mi.com/static/img/icons/msapplication-icon-144x144.png"> -->
+        <meta name="msapplication-TileColor" content="#000000">
+        <link rel="preload" href="https://m.mi.com/static/js/manifest.60515db443fc67032117.bundle.js" as="script">
+        <link rel="preload" href="https://m.mi.com/static/js/vue.eb8c5d6565f7a1b16460.bundle.js" as="script">
+        <link rel="preload" href="https://m.mi.com/static/js/vendor.0bf80ae26bb390b98066.bundle.js" as="script">
+        <link rel="preload" href="https://m.mi.com/static/js/app.15404a5098623972310e.bundle.js" as="script">
+        <link rel="preload" href="https://m.mi.com/static/css/app.74d02de8750a327ca3e4cd5514cdbe32.css" as="style">
+        <script type="text/javascript" async="" src="//a.stat.xiaomi.com/js/mstr.js?mid=&amp;device_id=&amp;phpsessid=&amp;mstuid=1526286243863_3186&amp;muuid=&amp;mucid=&amp;sessionId=1065034629&amp;step=144&amp;new_visitor=0&amp;mstprevpid=&amp;mstprev_pid_loc=&amp;prevtarget=&amp;lastsource=www.google.com&amp;timestamp=1526290009467&amp;ref=&amp;domain=.mi.com&amp;screen=375*667&amp;language=zh-CN&amp;vendor=Google Inc.&amp;platform=Win32&amp;gu=&amp;miwd=&amp;edm_task=&amp;masid=&amp;client_id=&amp;pu=&amp;rf=0&amp;mutid=&amp;muwd=&amp;domain_id=101&amp;next_mi=1&amp;pageid=aa6b36fbc8a2bd55&amp;curl=https%3A%2F%2Fm.mi.com%2F&amp;xmv=1526286243863_3186_1526286243864&amp;v=1.0.0&amp;vuuid=BE9G5URBHO6H7EDM&amp;type=sp&amp;logs=&amp;log_codes=31waphomelist_two_type1001023%23t%3Dproduct%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3173816.1%26pid%3D10000064%3B31waphomelist_two_type1002023%23t%3Dproduct%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3173816.2%26pid%3D10000070%3B31waphomelist_two_type1001024%23t%3Dproduct%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3173817.1%26pid%3D7765%3B31waphomelist_two_type1002024%23t%3Dproduct%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3173817.2%26pid%3D7359"></script>
+        <script type="text/javascript" async="" src="//a.stat.xiaomi.com/js/mstr.js?mid=&amp;device_id=&amp;phpsessid=&amp;mstuid=1526286243863_3186&amp;muuid=&amp;mucid=&amp;sessionId=1065034629&amp;step=143&amp;new_visitor=0&amp;mstprevpid=&amp;mstprev_pid_loc=&amp;prevtarget=&amp;lastsource=www.google.com&amp;timestamp=1526290009165&amp;ref=&amp;domain=.mi.com&amp;screen=375*667&amp;language=zh-CN&amp;vendor=Google Inc.&amp;platform=Win32&amp;gu=&amp;miwd=&amp;edm_task=&amp;masid=&amp;client_id=&amp;pu=&amp;rf=0&amp;mutid=&amp;muwd=&amp;domain_id=101&amp;next_mi=1&amp;pageid=aa6b36fbc8a2bd55&amp;curl=https%3A%2F%2Fm.mi.com%2F&amp;xmv=1526286243863_3186_1526286243864&amp;v=1.0.0&amp;vuuid=BE9G5URBHO6H7EDM&amp;type=sp&amp;logs=&amp;log_codes=31waphomecells_auto_fill001019%23t%3Dad%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3039085.1%26adp%3D390%26adm%3D6657%3B31waphomecells_auto_fill001021%23t%3Dad%26page%3Dhome%26act%3Dproduct%26pid%3D10000070%26page_id%3D26%26bid%3D3173812.1%26adp%3D2022%26adm%3D6933"></script>
+        <script type="text/javascript" async="" src="//a.stat.xiaomi.com/js/mstr.js?mid=&amp;device_id=&amp;phpsessid=&amp;mstuid=1526286243863_3186&amp;muuid=&amp;mucid=&amp;sessionId=1065034629&amp;step=142&amp;new_visitor=0&amp;mstprevpid=&amp;mstprev_pid_loc=&amp;prevtarget=&amp;lastsource=www.google.com&amp;timestamp=1526290008864&amp;ref=&amp;domain=.mi.com&amp;screen=375*667&amp;language=zh-CN&amp;vendor=Google Inc.&amp;platform=Win32&amp;gu=&amp;miwd=&amp;edm_task=&amp;masid=&amp;client_id=&amp;pu=&amp;rf=0&amp;mutid=&amp;muwd=&amp;domain_id=101&amp;next_mi=1&amp;pageid=aa6b36fbc8a2bd55&amp;curl=https%3A%2F%2Fm.mi.com%2F&amp;xmv=1526286243863_3186_1526286243864&amp;v=1.0.0&amp;vuuid=BE9G5URBHO6H7EDM&amp;type=sp&amp;logs=&amp;log_codes=31waphomelist_two_type1001017%23t%3Dproduct%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3182280.1%26pid%3D10000084%3B31waphomelist_two_type1002017%23t%3Dproduct%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3182280.2%26pid%3D7595"></script>
+        <script type="text/javascript" async="" src="//a.stat.xiaomi.com/js/mstr.js?mid=&amp;device_id=&amp;phpsessid=&amp;mstuid=1526286243863_3186&amp;muuid=&amp;mucid=&amp;sessionId=1065034629&amp;step=141&amp;new_visitor=0&amp;mstprevpid=&amp;mstprev_pid_loc=&amp;prevtarget=&amp;lastsource=www.google.com&amp;timestamp=1526289364370&amp;ref=&amp;domain=.mi.com&amp;screen=375*667&amp;language=zh-CN&amp;vendor=Google Inc.&amp;platform=Win32&amp;gu=&amp;miwd=&amp;edm_task=&amp;masid=&amp;client_id=&amp;pu=&amp;rf=0&amp;mutid=&amp;muwd=&amp;domain_id=101&amp;next_mi=1&amp;pageid=aa6b36fbc8a2bd55&amp;curl=https%3A%2F%2Fm.mi.com%2F&amp;xmv=1526286243863_3186_1526286243864&amp;v=1.0.0&amp;vuuid=BE9G5URBHO6H7EDM&amp;type=sp&amp;logs=&amp;log_codes=31waphomelist_two_type1001016%23t%3Dproduct%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3182279.1%26pid%3D7758%3B31waphomelist_two_type1002016%23t%3Dproduct%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3182279.2%26pid%3D7354"></script>
+        <script type="text/javascript" async="" src="//a.stat.xiaomi.com/js/mstr.js?mid=&amp;device_id=&amp;phpsessid=&amp;mstuid=1526286243863_3186&amp;muuid=&amp;mucid=&amp;sessionId=1065034629&amp;step=140&amp;new_visitor=0&amp;mstprevpid=&amp;mstprev_pid_loc=&amp;prevtarget=&amp;lastsource=www.google.com&amp;timestamp=1526288297480&amp;ref=&amp;domain=.mi.com&amp;screen=375*667&amp;language=zh-CN&amp;vendor=Google Inc.&amp;platform=Win32&amp;gu=&amp;miwd=&amp;edm_task=&amp;masid=&amp;client_id=&amp;pu=&amp;rf=0&amp;mutid=&amp;muwd=&amp;domain_id=101&amp;next_mi=1&amp;pageid=aa6b36fbc8a2bd55&amp;curl=https%3A%2F%2Fm.mi.com%2F&amp;xmv=1526286243863_3186_1526286243864&amp;v=1.0.0&amp;vuuid=BE9G5URBHO6H7EDM&amp;type=sp&amp;logs=&amp;log_codes=31waphomegallery001001%23t%3Dad%26page%3Dhome%26act%3Dproduct%26pid%3D10000083%26page_id%3D26%26bid%3D3000164.1%26adp%3D1006%26adm%3D6723%3B31waphomegallery002001%23t%3Dad%26page%3Dhome%26act%3Dproduct%26pid%3D10000084%26page_id%3D26%26bid%3D3000164.2%26adp%3D1005%26adm%3D7098%3B31waphomecells_auto_fill001003%23t%3Dad%26page%3Dhome%26act%3Dwebview%26page_id%3D26%26bid%3D3033321.1%26adp%3D1298%26adm%3D3124%3B31waphomecells_auto_fill002003%23t%3Dad%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3033321.2%26adp%3D1299%26adm%3D3125%3B31waphomecells_auto_fill003003%23t%3Dad%26page%3Dhome%26act%3Dwebview%26page_id%3D26%26bid%3D3033321.3%26adp%3D1300%26adm%3D5764%3B31waphomecells_auto_fill004003%23t%3Dad%26page%3Dhome%26act%3Dwebview%26page_id%3D26%26bid%3D3033321.4%26adp%3D1301%26adm%3D3127%3B31waphomecells_auto_fill005003%23t%3Dad%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3033321.5%26adp%3D1302%26adm%3D6198%3B31waphomecells_auto_fill001007%23t%3Dad%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3000169.1%26adp%3D215%26adm%3D7466%3B31waphomecells_auto_fill002007%23t%3Dad%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3000169.2%26adp%3D216%26adm%3D5570%3B31waphomecells_auto_fill003007%23t%3Dad%26page%3Dhome%26act%3Dother%26page_id%3D26%26bid%3D3000169.3%26adp%3D217%26adm%3D6555%3B31waphomecells_auto_fill001009%23t%3Dad%26page%3Dhome%26act%3Dproduct%26pid%3D10000079%26page_id%3D26%26bid%3D3000171.1%26adp%3D1355%26adm%3D6932%3B31waphomecells_auto_fill001014%23t%3Dad%26page%3Dhome%26act%3Dproduct%26pid%3D10000057%26page_id%3D26%26bid%3D3182278.1%26adp%3D2039%26adm%3D7469"></script>
+        <script type="text/javascript" async="" src="//a.stat.xiaomi.com/js/mstr.js?mid=&amp;device_id=&amp;phpsessid=&amp;mstuid=1526286243863_3186&amp;muuid=&amp;mucid=&amp;sessionId=1065034629&amp;step=139&amp;new_visitor=0&amp;mstprevpid=&amp;mstprev_pid_loc=&amp;prevtarget=&amp;lastsource=www.google.com&amp;timestamp=1526288296466&amp;ref=&amp;domain=.mi.com&amp;screen=375*667&amp;language=zh-CN&amp;vendor=Google Inc.&amp;platform=Win32&amp;gu=&amp;miwd=&amp;edm_task=&amp;masid=&amp;client_id=&amp;pu=&amp;rf=0&amp;mutid=&amp;muwd=&amp;domain_id=101&amp;next_mi=1&amp;pageid=aa6b36fbc8a2bd55&amp;curl=https%3A%2F%2Fm.mi.com%2F&amp;xmv=1526286243863_3186_1526286243864&amp;v=1.0.0&amp;vuuid=FFP1LPBQH1EU9T37"></script>
+        <script type="text/javascript" async="" src="//s1.mi.com/stat/18/jquery.statData.min.js?d=2018514"></script>
+        <script type="text/javascript" async="" src="//s1.mi.com/stat/18/xmst.js"></script>
+        <script src="//hm.baidu.com/hm.js?4982d57ea12df95a2b24715fb6440726"></script>
+        <script>
+            window.onerror = function(o, n, a, e, r) {
+                var t = "101|" + location.pathname + "|" + o + "|" + n + "|" + a + "|" + e + "|" + navigator.userAgent;
+                (new Image).src = "//a.stat.xiaomi.com/js/pprof.js?err=" + encodeURIComponent(t)
+            }
+        </script>
+        <script>
+            var MP_CUR_TIME = +new Date;
+            ! function(e) {
+                var t = e.document,
+                    n = t.documentElement,
+                    i = e.devicePixelRatio || 1,
+                    a = "orientationchange" in e ? "orientationchange" : "resize",
+                    d = function() {
+                        var e = n.getBoundingClientRect().width || 360;
+                        (1 == i || e > 720) && (e = 720), n.style.fontSize = e / 7.2 + "px"
+                    };
+                n.setAttribute("data-dpr", i), t.addEventListener && (e.addEventListener(a, d, !1), "complete" === t.readyState ||
+                    t.addEventListener("DOMContentLoaded", function() {
+                        setTimeout(d)
+                    }, !1))
+            }(window)
+        </script>
+
+        <link rel="shortcut icon" href="/favicon.ico">
+
+        <link href="https://m.mi.com/static/css/app.74d02de8750a327ca3e4cd5514cdbe32.css" rel="stylesheet">
+        <script type="text/javascript" charset="utf-8" async="" src="https://m.mi.com/static/js/home.52db1620a062d372b7cb.js"></script>
+
+        <style type="text/css">
+            #top {
+                position: fixed;
+                z-index: 999;
+                bottom: 1.4rem;
+                right: .26rem;
+                width: .7rem;
+                height: .7rem;
+                overflow: hidden
+            }
+            
+            #top img {
+                width: 100%
+            }
+        </style>
+
+        <style type="text/css">
+            .gallery {
+                background: #ccc
+            }
+            
+            .gallery .swiper-slide,
+            .gallery img {
+                display: block
+            }
+            
+            .gallery img {
+                width: 100%;
+                height: auto;
+                -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                position: absolute;
+                left: 50%;
+                top: 50%
+            }
+        </style>
+        <link rel="stylesheet" href="css/mi-1.css">
+        <link rel="stylesheet" href="css/mi-2.css">
+        <link rel="stylesheet" href="css/mi-3.css">
+        <link rel="stylesheet" href="css/mi-4.css">
+    </head>
+</head>
+
+<!-- 小米样式结束 -->
+
+
+</head>
+<!-- https://valor-software.com/ngx-bootstrap/assets/images/logos/ngx-bootstrap-logo.svg -->
+
+<body>
+
+    <body>
+        <div data-v-bc186c1a="" id="app">
+            <div data-v-bc186c1a="" class="app-shell app-shell-bottom-navigation">
+                <header data-v-266b4a99="" data-v-bc186c1a="" class="app-header-wrapper app-shell-header" style="display: none;">
+                    <div data-v-266b4a99="" class="app-header-left">
+                        <a data-v-266b4a99="" class="app-header-item">
+                            <i data-v-266b4a99="" class="image-icons app-header-icon icon-back"></i>
+                        </a>
+                        <!---->
+                    </div>
+                    <div data-v-266b4a99="" class="app-header-middle">
+                        <div data-v-266b4a99="" class="app-header-title">小米商城</div>
+                    </div>
+                    <div data-v-266b4a99="" class="app-header-right">
+                        <a data-v-266b4a99="" class="app-header-item">
+                            <i data-v-266b4a99="" class="image-icons app-header-icon icon-search"></i>
+                        </a>
+                    </div>
+                </header>
+                <div data-v-bc186c1a="" class="app-view-wrapper">
+                    <div data-v-0677858e="" data-v-bc186c1a="" id="home" class="container fluid app-view app-view-with-footer">
+                        <header data-v-0677858e="" class="header">
+                            <div data-v-0677858e="" class="app-header-wrapper">
+                                <div data-v-0677858e="" class="app-header-left">
+                                    <div data-v-0677858e="" class="app-header-item logo">
+                                        <img data-v-0677858e="" src="http://shopclient.airuanjian.vip/assets/images/logo.png">
+                                    </div>
+                                </div>
+                                <div data-v-0677858e="" class="app-header-middle">
+                                    <div data-v-0677858e="" class="app-header-title">
+                                        <i data-v-0677858e="" class="image-icons app-header-icon icon-search"></i>搜索商品名称</div>
+                                </div>
+                                <div data-v-0677858e="" class="app-header-right">
+                                    <div data-v-0677858e="" class="app-header-item">
+                                        <i data-v-0677858e="" class="image-icons app-header-icon icon-user"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-v-0677858e="" class="nav">
+                                <div data-v-0677858e="" class="nav-item">
+                                    <span data-v-0677858e="" style="color: rgb(237, 91, 0); border-color: rgb(237, 91, 0);">一口价</span>
+                                </div>
+                                <div data-v-0677858e="" class="nav-item">
+                                    <span data-v-0677858e="" style="color: rgb(116, 116, 116); border-color: rgb(242, 242, 242);">操作系统</span>
+                                </div>
+                                <div data-v-0677858e="" class="nav-item">
+                                    <span data-v-0677858e="" style="color: rgb(116, 116, 116); border-color: rgb(242, 242, 242);">广告投放</span>
+                                </div>
+                                <div data-v-0677858e="" class="nav-item">
+                                    <span data-v-0677858e="" style="color: rgb(116, 116, 116); border-color: rgb(242, 242, 242);">店面展示</span>
+                                </div>
+                                <div data-v-0677858e="" class="nav-item">
+                                    <span data-v-0677858e="" style="color: rgb(116, 116, 116); border-color: rgb(242, 242, 242);">店面营销</span>
+                                </div>
+
+                            </div>
+                        </header>
+                        <div data-v-0677858e="" class="page-wrap">
+                            <div data-v-0677858e="" class="bodys">
+                                <div data-v-0677858e="" class="component-list-main">
+                                    <!---->
+                                    <div class="swiper-container gallery swiper-container-horizontal" index="0">
+                                        <div class="swiper-wrapper J_linksign-customize" style="transform: translate3d(0px, 0px, 0px);">
+                                            <a data-log_code="31waphomegallery001001#t=ad&amp;page=home&amp;act=product&amp;pid=10000083&amp;page_id=26&amp;bid=3000164.1&amp;adp=1006&amp;adm=6723" class="swiper-slide exposure swiper-slide-active" style="height: 3.6rem; width: 375px;">
+                                                <img class="swiper-lazy swiper-lazy-loaded" src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/7bf60972f79f94a4b69a0666a57121b2.jpg?thumb=1&amp;w=720&amp;h=360">
+                                            </a>
+                                            <a data-log_code="31waphomegallery002001#t=ad&amp;page=home&amp;act=product&amp;pid=10000084&amp;page_id=26&amp;bid=3000164.2&amp;adp=1005&amp;adm=7098" class="swiper-slide exposure swiper-slide-next" style="height: 3.6rem; width: 375px;">
+                                                <img class="swiper-lazy swiper-lazy-loaded" src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/37dfdc929ee9a4313facb0b23ebcd721.jpg?thumb=1&amp;w=720&amp;h=360">
+                                            </a>
+                                            <a data-log_code="31waphomegallery003001#t=ad&amp;page=home&amp;act=product&amp;pid=6222&amp;page_id=26&amp;bid=3000164.3&amp;adp=2219&amp;adm=7236" class="swiper-slide exposure" style="height: 3.6rem; width: 375px;">
+                                                <img data-src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/1e76cdf0ac3a01fff59eca92a28ac568.jpg?thumb=1&amp;w=720&amp;h=360" class="swiper-lazy">
+                                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-pagination swiper-pagination-white swiper-pagination-bullets">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                                            <span class="swiper-pagination-bullet"></span>
+                                            <span class="swiper-pagination-bullet"></span>
+                                        </div>
+                                    </div>
+                                    <!---->
+                                    <div class="cells_auto_fill multi_cell" index="1" style="width: 7.2rem; height: 1.52rem;">
+                                        <a data-log_code="31waphomecells_auto_fill001003#t=ad&amp;page=home&amp;act=webview&amp;page_id=26&amp;bid=3033321.1&amp;adp=1298&amp;adm=3124" class="exposure items" style="width: 1.44rem; height: 1.52rem;">
+                                            <img src="//i8.mifile.cn/v1/a1/6d64ef02-bb5c-da49-45cb-7d6861885b29!144x152.webp" lazy="loaded" style="width: 1.44rem; height: 1.52rem;">
+                                            <!---->
+                                        </a>
+                                        <a data-log_code="31waphomecells_auto_fill002003#t=ad&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3033321.2&amp;adp=1299&amp;adm=3125" class="exposure items" style="width: 1.44rem; height: 1.52rem; left: 1.44rem;">
+                                            <img src="//i8.mifile.cn/v1/a1/d29e748c-0177-5b4c-d2ab-401070713bac!144x152.webp" lazy="loaded" style="width: 1.44rem; height: 1.52rem;">
+                                            <!---->
+                                        </a>
+                                        <a data-log_code="31waphomecells_auto_fill003003#t=ad&amp;page=home&amp;act=webview&amp;page_id=26&amp;bid=3033321.3&amp;adp=1300&amp;adm=5764" class="exposure items" style="width: 1.44rem; height: 1.52rem; left: 2.88rem;">
+                                            <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9173298cc0297ce1803c43485e525358.jpg?thumb=1&amp;w=144&amp;h=152" lazy="loaded" style="width: 1.44rem; height: 1.52rem;">
+                                            <!---->
+                                        </a>
+                                        <a data-log_code="31waphomecells_auto_fill004003#t=ad&amp;page=home&amp;act=webview&amp;page_id=26&amp;bid=3033321.4&amp;adp=1301&amp;adm=3127" class="exposure items" style="width: 1.44rem; height: 1.52rem; left: 4.32rem;">
+                                            <img src="//i8.mifile.cn/v1/a1/e560f98a-48bb-25a1-daa2-72bff8cc7c69!144x152.webp" lazy="loaded" style="width: 1.44rem; height: 1.52rem;">
+                                            <!---->
+                                        </a>
+                                        <a data-log_code="31waphomecells_auto_fill005003#t=ad&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3033321.5&amp;adp=1302&amp;adm=6198" class="exposure items" style="width: 1.44rem; height: 1.52rem; left: 5.76rem;">
+                                            <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/938f75d98244629b0d29bfc9c4323f8d.png?thumb=1&amp;w=144&amp;h=152" lazy="loaded" style="width: 1.44rem; height: 1.52rem;">
+                                            <!---->
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="2" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill multi_cell" index="3" style="width: 7.2rem; height: 5.08rem;">
+                                        <a data-log_code="31waphomecells_auto_fill001007#t=ad&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3000169.1&amp;adp=215&amp;adm=7466" class="exposure items" style="width: 3.58rem; height: 5.08rem;">
+                                            <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/0189f03e38a38a4880754bf30f59782f.jpg?thumb=1&amp;w=358&amp;h=508" lazy="loaded" style="width: 3.58rem; height: 5.08rem;">
+                                            <!---->
+                                        </a>
+                                        <a data-log_code="31waphomecells_auto_fill002007#t=ad&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3000169.2&amp;adp=216&amp;adm=5570" class="exposure items" style="width: 3.58rem; height: 2.52rem; left: 3.62rem;">
+                                            <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/04e0136baa0b83859e6cc2e997a9a8eb.jpg?thumb=1&amp;w=358&amp;h=252" lazy="loaded" style="width: 3.58rem; height: 2.52rem;">
+                                            <!---->
+                                        </a>
+                                        <a data-log_code="31waphomecells_auto_fill003007#t=ad&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3000169.3&amp;adp=217&amp;adm=6555" class="exposure items" style="width: 3.58rem; height: 2.52rem; left: 3.62rem; top: 2.56rem;">
+                                            <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/22fb1734aa79d4ae26e92f63bf14ada3.jpg?thumb=1&amp;w=358&amp;h=252" lazy="loaded" style="width: 3.58rem; height: 2.52rem;">
+                                            <!---->
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="4" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill" index="5">
+                                        <a data-log_code="31waphomecells_auto_fill001009#t=ad&amp;page=home&amp;act=product&amp;pid=10000079&amp;page_id=26&amp;bid=3000171.1&amp;adp=1355&amp;adm=6932" class="exposure items" style="width: 7.2rem; height: 2.8rem;">
+                                            <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/201fb181fb287db02c0178454e2fd024.jpg?thumb=1&amp;w=720&amp;h=280" lazy="loaded" style="height: 2.8rem; width: 7.2rem;">
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="6" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill" index="7">
+                                        <a data-log_code="31waphomecells_auto_fill001014#t=ad&amp;page=home&amp;act=product&amp;pid=10000057&amp;page_id=26&amp;bid=3182278.1&amp;adp=2039&amp;adm=7469" class="exposure items" style="width: 7.2rem; height: 4.4rem;">
+                                            <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/e178243c163f2716d4abd7be82773649.jpg?thumb=1&amp;w=720&amp;h=440" lazy="loaded" style="height: 4.4rem; width: 7.2rem;">
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="8" style="height: 0.04rem; border-bottom: 0.04rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="9">
+                                        <a data-log_code="31waphomelist_two_type1001016#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3182279.1&amp;pid=7758" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e8104120fc746ecae87626da4ff25da.jpg?thumb=1&amp;w=360&amp;h=360" lazy="loaded" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">红米5A 32GB</div>
+                                                <div class="brief">轻巧长续航</div>
+                                                <div class="price">699
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="31waphomelist_two_type1002016#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3182279.2&amp;pid=7354" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="//i8.mifile.cn/v1/a1/48af122b-362c-dae5-8305-899805faf635!360x360.webp" lazy="loaded" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">红米5 16GB</div>
+                                                <div class="brief">千元全面屏，前置柔光自拍</div>
+                                                <div class="price">749
+                                                    <!---->
+                                                    <span class="price old">
+                                                        <s>799</s>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="10">
+                                        <a data-log_code="31waphomelist_two_type1001017#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3182280.1&amp;pid=10000084" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/850d316b25648c9862c7c22aefba9280.jpg?thumb=1&amp;w=360&amp;h=360" lazy="loaded" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">红米Note 5</div>
+                                                <div class="brief">1.4μm大像素 AI双摄</div>
+                                                <div class="price">1099
+                                                    <span>起</span>
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="31waphomelist_two_type1002017#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3182280.2&amp;pid=7595" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="//i8.mifile.cn/v1/a1/e7853ea5-1260-6cb2-91ed-2c539a87db0a!360x360.webp" lazy="loaded" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">红米5 4GB+32GB</div>
+                                                <div class="brief">千元全面屏，前置柔光自拍</div>
+                                                <div class="price">999
+                                                    <!---->
+                                                    <span class="price old">
+                                                        <s>1099</s>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="11" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill" index="12">
+                                        <a data-log_code="31waphomecells_auto_fill001019#t=ad&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3039085.1&amp;adp=390&amp;adm=6657" class="exposure items" style="width: 7.2rem; height: 2.8rem;">
+                                            <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/812ee56bcd3ff8954f7a9672a5f9ca13.jpg?thumb=1&amp;w=720&amp;h=280" lazy="loaded" style="height: 2.8rem; width: 7.2rem;">
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="13" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill" index="14">
+                                        <a data-log_code="31waphomecells_auto_fill001021#t=ad&amp;page=home&amp;act=product&amp;pid=10000070&amp;page_id=26&amp;bid=3173812.1&amp;adp=2022&amp;adm=6933" class="exposure items" style="width: 7.2rem; height: 4.4rem;">
+                                            <img src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2168eec5ae8ffc145a646d940c4cc6ca.jpg?thumb=1&amp;w=720&amp;h=440" lazy="loaded" style="height: 4.4rem; width: 7.2rem;">
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="15" style="height: 0.04rem; border-bottom: 0.04rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="16">
+                                        <a data-log_code="31waphomelist_two_type1001023#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3173816.1&amp;pid=10000064" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5603273010ab9182a1527cfab5cd2a9e.jpg?thumb=1&amp;w=360&amp;h=360" lazy="loaded" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米5X 变焦双摄</div>
+                                                <div class="brief">5.5"大屏轻薄全金属</div>
+                                                <div class="price">1499
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="31waphomelist_two_type1002023#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3173816.2&amp;pid=10000070" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/d68da7f79cc9800a34b1b48e1a439e44.jpg?thumb=1&amp;w=360&amp;h=360" lazy="loaded" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米MIX 2</div>
+                                                <div class="brief">5.99"大屏，4轴光学防抖</div>
+                                                <div class="price">2899
+                                                    <span>起</span>
+                                                    <span class="price old">
+                                                        <s>3299</s>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="17">
+                                        <a data-log_code="31waphomelist_two_type1001024#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3173817.1&amp;pid=7765" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">红米Note 5 6GB+64GB</div>
+                                                <div class="brief">1.4μm大像素 AI 双摄</div>
+                                                <div class="price">1699
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="31waphomelist_two_type1002024#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3173817.2&amp;pid=7359" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">红米5 Plus 64GB</div>
+                                                <div class="brief">全面屏，前置柔光自拍</div>
+                                                <div class="price">1299
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="18" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill" index="19">
+                                        <a data-log_code="31waphomecells_auto_fill001026#t=ad&amp;page=home&amp;act=product&amp;pid=10000089&amp;page_id=26&amp;bid=3000178.1&amp;adp=295&amp;adm=7035" class="exposure items" style="width: 7.2rem; height: 2.8rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="height: 2.8rem; width: 7.2rem;">
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="20" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill" index="21">
+                                        <a data-log_code="31waphomecells_auto_fill001028#t=ad&amp;page=home&amp;act=product&amp;pid=7795&amp;page_id=26&amp;bid=3000175.1&amp;adp=218&amp;adm=7472" class="exposure items" style="width: 7.2rem; height: 4.4rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="height: 4.4rem; width: 7.2rem;">
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="22" style="height: 0.04rem; border-bottom: 0.04rem solid rgb(255, 255, 255); background-color: rgb(255, 255, 255);"></div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="23">
+                                        <a data-log_code="recom_home_21-2#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=5184" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米无人机4K版</div>
+                                                <div class="brief">探索触手可及的新视角</div>
+                                                <div class="price">2999
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="recom_home_21-4#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=5145" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小方智能摄像1S</div>
+                                                <div class="brief">1080P清晰画质，安全看家</div>
+                                                <div class="price">99
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="24">
+                                        <a data-log_code="recom_home_21-3#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=5825" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米路由器 3G</div>
+                                                <div class="brief">双核双千兆，上网很快</div>
+                                                <div class="price">249
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="recom_home_21-6#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=4893" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <div class="tag">
+                                                    <img class="tag-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 1.2rem; height: 0.32rem;">
+                                                </div>
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米盒子3s</div>
+                                                <div class="brief">4K HDR 人工智能机顶盒</div>
+                                                <div class="price">299
+                                                    <!---->
+                                                    <span class="price old">
+                                                        <s>349</s>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="25">
+                                        <a data-log_code="recom_home_21-4#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=4998" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米移动电源高配版</div>
+                                                <div class="brief"> 轻薄设计，轻松出行</div>
+                                                <div class="price">149
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="recom_home_21-8#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=5353" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <div class="tag">
+                                                    <img class="tag-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 1.2rem; height: 0.32rem;">
+                                                </div>
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米电视4A 65英寸</div>
+                                                <div class="brief">4K超清大屏，64位处理器</div>
+                                                <div class="price">3999
+                                                    <!---->
+                                                    <span class="price old">
+                                                        <s>4499</s>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="26" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill" index="27">
+                                        <a data-log_code="31waphomecells_auto_fill001031#t=ad&amp;page=home&amp;act=product&amp;pid=7601&amp;page_id=26&amp;bid=3000180.1&amp;adp=231&amp;adm=5602" class="exposure items" style="width: 7.2rem; height: 4.4rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="height: 4.4rem; width: 7.2rem;">
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="28" style="height: 0.04rem; border-bottom: 0.04rem solid rgb(255, 255, 255); background-color: rgb(255, 255, 255);"></div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="29">
+                                        <a data-log_code="recom_home_24-2#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=7919" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <div class="tag">
+                                                    <img class="tag-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 0.8rem; height: 0.32rem;">
+                                                </div>
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米游戏耳机</div>
+                                                <div class="brief">7.1 虚拟环绕立体声引擎</div>
+                                                <div class="price">349
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="recom_home_24-4#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=7621" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">Amazfit Cor手环</div>
+                                                <div class="brief">彩色IPS触摸屏，50米游泳防水</div>
+                                                <div class="price">299
+                                                    <span>起</span>
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="30">
+                                        <a data-log_code="recom_home_24-3#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=7773" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <div class="tag">
+                                                    <img class="tag-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 0.8rem; height: 0.32rem;">
+                                                </div>
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">米兔积木矿山卡车</div>
+                                                <div class="brief">小零件，拼接出大乐趣</div>
+                                                <div class="price">99
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="recom_home_24-6#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=7797" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">米家电动剃须刀</div>
+                                                <div class="brief">剃得干净，剃得快</div>
+                                                <div class="price">199
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="31">
+                                        <a data-log_code="recom_home_24-4#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=6125" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">米家wiha螺丝刀套装</div>
+                                                <div class="brief">满足大多数日常所需</div>
+                                                <div class="price">99
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="recom_home_24-8#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=7792" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米米家智能后视镜</div>
+                                                <div class="brief">能听会说，导航、听歌一句话的事儿</div>
+                                                <div class="price">999
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="32" style="height: 0.02rem; border-bottom: 0.02rem solid rgb(206, 206, 206); background-color: rgb(206, 206, 206);"></div>
+                                    <!---->
+                                    <div class="list_action_title box-flex" index="33">
+                                        <a data-log_code="31waphomelist_action_title001034#t=normal&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3000183.1" class="h exposure">
+                                            <div class="ti">更多新品 &gt;</div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="34" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill" index="35">
+                                        <a data-log_code="31waphomecells_auto_fill001036#t=ad&amp;page=home&amp;act=product&amp;pid=10000085&amp;page_id=26&amp;bid=3000185.1&amp;adp=926&amp;adm=7188" class="exposure items" style="width: 7.2rem; height: 2.8rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="height: 2.8rem; width: 7.2rem;">
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="cells_auto_fill" index="36">
+                                        <a data-log_code="31waphomecells_auto_fill001040#t=ad&amp;page=home&amp;act=product&amp;pid=4348&amp;page_id=26&amp;bid=3000187.1&amp;adp=232&amp;adm=614" class="exposure items" style="width: 7.2rem; height: 4.4rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="height: 4.4rem; width: 7.2rem;">
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="37" style="height: 0.04rem; border-bottom: 0.04rem solid rgb(255, 255, 255); background-color: rgb(255, 255, 255);"></div>
+                                    <!---->
+                                    <div class="list_one_type2" index="38">
+                                        <a data-log_code="recom_home_30-2#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=6334" class="exposure box-flex item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米AI音箱</div>
+                                                <div class="briefwarp">能播音乐、讲故事、查路况、设闹钟，还能控制智能设备</div>
+                                                <div class="price mt32">299
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="list_one_type3" index="39">
+                                        <a data-log_code="recom_home_30-3#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=7088" class="exposure box-flex item">
+                                            <div class="info">
+                                                <div class="name">小白智能摄像机大众版</div>
+                                                <div class="briefwarp">高清视角，给你更通透的看护画面</div>
+                                                <div class="price mt32">99
+                                                    <!---->
+                                                    <span class="price old">
+                                                        <s>109</s>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="list_one_type2" index="40">
+                                        <a data-log_code="recom_home_30-4#eid=13:0:0:0:0:0:0:0:0:0&amp;page=home&amp;pid=6105" class="exposure box-flex item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">米家感应夜灯</div>
+                                                <div class="briefwarp">智慧光精灵，光明随时随地</div>
+                                                <div class="price mt32">49
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="41" style="height: 0.02rem; border-bottom: 0.02rem solid rgb(206, 206, 206); background-color: rgb(206, 206, 206);"></div>
+                                    <!---->
+                                    <div class="list_action_title box-flex" index="42">
+                                        <a data-log_code="31waphomelist_action_title001043#t=normal&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3053774.1" class="h exposure">
+                                            <div class="ti">更多米家智能产品 &gt;</div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="43" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill" index="44">
+                                        <a data-log_code="31waphomecells_auto_fill001045#t=ad&amp;page=home&amp;act=product&amp;pid=10000091&amp;page_id=26&amp;bid=3000194.1&amp;adp=931&amp;adm=7207" class="exposure items" style="width: 7.2rem; height: 2.8rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="height: 2.8rem; width: 7.2rem;">
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="45" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill" index="46">
+                                        <a data-log_code="31waphomecells_auto_fill001047#t=ad&amp;page=home&amp;act=product&amp;pid=6222&amp;page_id=26&amp;bid=3053444.1&amp;adp=1469&amp;adm=4177" class="exposure items" style="width: 7.2rem; height: 4.4rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="height: 4.4rem; width: 7.2rem;">
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="47" style="height: 0.04rem; border-bottom: 0.04rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="48">
+                                        <a data-log_code="31waphomelist_two_type1001049#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3059878.1&amp;pid=6222" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <div class="tag">
+                                                    <img class="tag-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 1.2rem; height: 0.32rem;">
+                                                </div>
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米电视4A 32英寸</div>
+                                                <div class="brief">64位处理器，高清智能电视</div>
+                                                <div class="price">899
+                                                    <!---->
+                                                    <span class="price old">
+                                                        <s>999</s>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="31waphomelist_two_type1002049#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3059878.2&amp;pid=6634" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <div class="tag">
+                                                    <img class="tag-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 1.2rem; height: 0.32rem;">
+                                                </div>
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米电视4A 55英寸</div>
+                                                <div class="brief">4K HDR，64位处理器</div>
+                                                <div class="price">2599
+                                                    <!---->
+                                                    <span class="price old">
+                                                        <s>2799</s>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="49">
+                                        <a data-log_code="31waphomelist_two_type1001050#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3061507.1&amp;pid=7574" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <div class="tag">
+                                                    <img class="tag-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 1.2rem; height: 0.32rem;">
+                                                </div>
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米电视4A 40英寸</div>
+                                                <div class="brief">FHD全高清屏，四核处理器</div>
+                                                <div class="price">1399
+                                                    <!---->
+                                                    <span class="price old">
+                                                        <s>1599</s>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="31waphomelist_two_type1002050#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3061507.2&amp;pid=7911" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <div class="tag">
+                                                    <img class="tag-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 0.8rem; height: 0.32rem;">
+                                                </div>
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">43"电视4A 青春版</div>
+                                                <div class="brief">全高清屏，人工智能语音</div>
+                                                <div class="price">1599
+                                                    <!---->
+                                                    <span class="price old">
+                                                        <s>1699</s>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="list_two_type1 box-flex" index="50">
+                                        <a data-log_code="31waphomelist_two_type1001051#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3136374.1&amp;pid=7598" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <div class="tag">
+                                                    <img class="tag-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 1.2rem; height: 0.32rem;">
+                                                </div>
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米盒子4c</div>
+                                                <div class="brief">第4代小米盒子储存，体验双升级</div>
+                                                <div class="price">219
+                                                    <!---->
+                                                    <span class="price old">
+                                                        <s>249</s>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a data-log_code="31waphomelist_two_type1002051#t=product&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3136374.2&amp;pid=7599" class="exposure item">
+                                            <div class="img">
+                                                <img class="big" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.6rem; height: 3.6rem;">
+                                                <div class="tag">
+                                                    <img class="tag-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 1.2rem; height: 0.32rem;">
+                                                </div>
+                                                <!---->
+                                            </div>
+                                            <div class="info">
+                                                <div class="name">小米盒子4</div>
+                                                <div class="brief">人工智能语音机顶盒，海量片源</div>
+                                                <div class="price">319
+                                                    <!---->
+                                                    <span class="price old">
+                                                        <s>349</s>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="51" style="height: 0.02rem; border-bottom: 0.02rem solid rgb(206, 206, 206); background-color: rgb(206, 206, 206);"></div>
+                                    <!---->
+                                    <div class="list_action_title box-flex" index="52">
+                                        <a data-log_code="31waphomelist_action_title001053#t=normal&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3000190.1" class="h exposure">
+                                            <div class="ti">更多小米电视产品 &gt;</div>
+                                        </a>
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="53" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill multi_cell" index="54" style="width: 7.2rem; height: 4.8rem;">
+                                        <a data-log_code="31waphomecells_auto_fill001055#t=ad&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3000196.1&amp;adp=227&amp;adm=41" class="exposure items" style="width: 3.58rem; height: 4.8rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.58rem; height: 4.8rem;">
+                                            <!---->
+                                        </a>
+                                        <a data-log_code="31waphomecells_auto_fill002055#t=ad&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3000196.2&amp;adp=228&amp;adm=132" class="exposure items" style="width: 3.58rem; height: 4.8rem; left: 3.62rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.58rem; height: 4.8rem;">
+                                            <!---->
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="55" style="height: 0.04rem; border-bottom: 0.04rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill multi_cell" index="56" style="width: 7.2rem; height: 4.8rem;">
+                                        <a data-log_code="31waphomecells_auto_fill001057#t=ad&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3000198.1&amp;adp=291&amp;adm=2961" class="exposure items" style="width: 3.58rem; height: 4.8rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.58rem; height: 4.8rem;">
+                                            <!---->
+                                        </a>
+                                        <a data-log_code="31waphomecells_auto_fill002057#t=ad&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3000198.2&amp;adp=292&amp;adm=44" class="exposure items" style="width: 3.58rem; height: 4.8rem; left: 3.62rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.58rem; height: 4.8rem;">
+                                            <!---->
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="57" style="height: 0.04rem; border-bottom: 0.04rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill multi_cell" index="58" style="width: 7.2rem; height: 4.8rem;">
+                                        <a data-log_code="31waphomecells_auto_fill001059#t=ad&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3000200.1&amp;adp=293&amp;adm=45" class="exposure items" style="width: 3.58rem; height: 4.8rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.58rem; height: 4.8rem;">
+                                            <!---->
+                                        </a>
+                                        <a data-log_code="31waphomecells_auto_fill002059#t=ad&amp;page=home&amp;act=other&amp;page_id=26&amp;bid=3000200.2&amp;adp=294&amp;adm=454" class="exposure items" style="width: 3.58rem; height: 4.8rem; left: 3.62rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="width: 3.58rem; height: 4.8rem;">
+                                            <!---->
+                                        </a>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <div class="divider_line" index="59" style="height: 0.16rem; border-bottom: 0.16rem solid rgb(245, 245, 245); background-color: rgb(245, 245, 245);"></div>
+                                    <!---->
+                                    <div class="cells_auto_fill" index="60">
+                                        <a data-log_code="31waphomecells_auto_fill001063#t=ad&amp;page=home&amp;act=product&amp;pid=7574&amp;page_id=26&amp;bid=3038946.1&amp;adp=1352&amp;adm=7460" class="exposure items" style="width: 7.2rem; height: 2.8rem;">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading" style="height: 2.8rem; width: 7.2rem;">
+                                        </a>
+                                        <!---->
+                                    </div>
+                                </div>
+                                <div data-v-0677858e="" class="component-list-main" tabindex2="0"></div>
+                            </div>
+                            <div data-v-0677858e="" class="bodys" style="display: none;">
+                                <div data-v-0677858e="" class="component-list-main"></div>
+                                <div data-v-0677858e="" class="component-list-main" tabindex2="1"></div>
+                            </div>
+                            <div data-v-0677858e="" class="bodys" style="display: none;">
+                                <div data-v-0677858e="" class="component-list-main"></div>
+                                <div data-v-0677858e="" class="component-list-main" tabindex2="2"></div>
+                            </div>
+                            <div data-v-0677858e="" class="bodys" style="display: none;">
+                                <div data-v-0677858e="" class="component-list-main"></div>
+                                <div data-v-0677858e="" class="component-list-main" tabindex2="3"></div>
+                            </div>
+                            <div data-v-0677858e="" class="bodys" style="display: none;">
+                                <div data-v-0677858e="" class="component-list-main"></div>
+                                <div data-v-0677858e="" class="component-list-main" tabindex2="4"></div>
+                            </div>
+                            <div data-v-0677858e="" class="bodys" style="display: none;">
+                                <div data-v-0677858e="" class="component-list-main"></div>
+                                <div data-v-0677858e="" class="component-list-main" tabindex2="5"></div>
+                            </div>
+                            <div data-v-0677858e="" class="bodys" style="display: none;">
+                                <div data-v-0677858e="" class="component-list-main"></div>
+                                <div data-v-0677858e="" class="component-list-main" tabindex2="6"></div>
+                            </div>
+                            <div data-v-0677858e="" class="bodys" style="display: none;">
+                                <div data-v-0677858e="" class="component-list-main"></div>
+                                <div data-v-0677858e="" class="component-list-main" tabindex2="7"></div>
+                            </div>
+                            <div data-v-0677858e="" class="bodys" style="display: none;">
+                                <div data-v-0677858e="" class="component-list-main"></div>
+                                <div data-v-0677858e="" class="component-list-main" tabindex2="8"></div>
+                            </div>
+                        </div>
+                        <a data-v-0677858e="" href="javascript:;" id="top" style="display: none;">
+                            <img src="data:image/png;base64,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">
+                        </a>
+                    </div>
+                    <!---->
+                </div>
+                <footer data-v-7c04fb90="" data-v-bc186c1a="" class="app-bottom-navigator-wrapper app-shell-footer">
+                    <div data-v-7c04fb90="" class="fill-height box-flex align-center">
+                        <a data-v-7c04fb90="" class="flex on">
+                            <i data-v-7c04fb90="" class="image-icons app-bottom-icon icon-home"></i>
+                            <span data-v-7c04fb90="">首页</span>
+                        </a>
+                        <a data-v-7c04fb90="" class="flex">
+                            <i data-v-7c04fb90="" class="image-icons app-bottom-icon icon-category"></i>
+                            <span data-v-7c04fb90="">分类</span>
+                        </a>
+                        <a data-v-7c04fb90="" class="flex">
+                            <i data-v-7c04fb90="" class="image-icons app-bottom-icon icon-cart"></i>
+                            <span data-v-7c04fb90="">购物车</span>
+                        </a>
+                        <a data-v-7c04fb90="" class="flex">
+                            <i data-v-7c04fb90="" class="image-icons app-bottom-icon icon-user"></i>
+                            <span data-v-7c04fb90="">我的</span>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script>
+            var Cookies = {
+                    removeBlanks: function(t) {
+                        for (var e = "", n = 0; n < t.length; n++) {
+                            var i = t.charAt(n);
+                            " " !== i && (e += i)
+                        }
+                        return e
+                    },
+                    set: function(t, e, n, i) {
+                        var s = arguments.length,
+                            m = new Date;
+                        m.setTime(m.getTime() + 31104e6), document.cookie = 3 === s ? t + "=" + e +
+                            ";path=/;domain=" + n : t + "=" + e + ";path=/;domain=" + n + ";expires=" + i
+                    },
+                    get: function(t) {
+                        for (var e = document.cookie, n = this.removeBlanks(e).split(";"), i = 0; i < n.length; i++) {
+                            var s = n[i].split("=");
+                            if (s.length > 1 && s[0] === t) return s[1]
+                        }
+                        return ""
+                    }
+                },
+                _hmt = _hmt = _hmt || [],
+                _gaq = _hmt;
+            ! function() {
+                var t = document.createElement("script");
+                t.src = "//hm.baidu.com/hm.js?4982d57ea12df95a2b24715fb6440726";
+                var e = document.getElementsByTagName("script")[0];
+                e.parentNode.insertBefore(t, e)
+            }();
+            var _msq = _msq || [];
+            "180100041061" === Cookies.get("client_id") ? _msq.push(["setDomainId", 127]) : "180100041065" === Cookies.get(
+                    "client_id") ? _msq.push(["setDomainId", 128]) : _msq.push(["setDomainId", 101]), _msq.push([
+                    "setVars", "next_mi", 1
+                ]),
+                function() {
+                    var t = document.createElement("script");
+                    t.type = "text/javascript", t.async = !0, t.src = "//s1.mi.com/stat/18/xmst.js";
+                    var e = document.getElementsByTagName("script")[0];
+                    e.parentNode.insertBefore(t, e), window.statInit = function() {
+                        window.xmstLittle && xmstLittle.isFunction(xmstLittle.fn.linkSign) && xmstLittle("body").linkSign()
+                    }
+                }()
+        </script>
+        <script type="text/javascript" src="https://m.mi.com/static/js/manifest.60515db443fc67032117.bundle.js"></script>
+        <script type="text/javascript" src="https://m.mi.com/static/js/vue.eb8c5d6565f7a1b16460.bundle.js"></script>
+        <script type="text/javascript" src="https://m.mi.com/static/js/vendor.0bf80ae26bb390b98066.bundle.js"></script>
+        <script type="text/javascript" src="https://m.mi.com/static/js/app.15404a5098623972310e.bundle.js"></script>
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <div data-v-6af35871="" class="progress" style="width: 0%; height: 2px; background-color: rgb(255, 202, 43); opacity: 0;"></div>
+        <audio controls="controls" style="display: none;"></audio>
+        <script src="http://118.31.72.227/api/bangwei-shop-client/list-group-and-products">
+        </script>
+    </body>
+</body>
+
+</html>

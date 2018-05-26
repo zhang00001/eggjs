@@ -1,0 +1,121 @@
+{% extends "./news.html" %}  {% block title %} <div class="title-container custom" style="">
+        <div class="content-width">
+            <h1>{{article.title}}</h1>
+            <!-- Meta -->
+            <div class="blog-meta">
+                <div class="meta-item published">
+                    <div class="meta-title published"></div>{{article.created_at | date('dd M月 yyyy')}} </div>
+                <div class="meta-item author">
+                    <div class="meta-title author"></div>
+                    {{article.autor_name}} </div>
+                <div class="meta-item views">
+                    <div class="meta-title views"></div>{{article.click_num}} </div>
+                <div class="meta-item comments">
+                    <div class="meta-title comments"></div>
+                    <a href="http://iebee.cn/2018/03/12/marketing-promotion/#respond">{{article.comment_num}}</a>
+                </div>
+                <div class="meta-item cats">
+                    <div class="meta-title cats"></div>
+                    <a href="http://iebee.cn/category/we-chat/" rel="category tag">{{group.name}}</a>,
+
+                </div>
+            </div>
+        </div>
+    </div>
+    {%endblock%}
+
+    {% block article %}
+    <div class="column-three-qtr">
+
+            <!-- Blog Post -->
+            <div id="post-11625" class="blog-post actual-post post-11625 post type-post status-publish format-standard has-post-thumbnail hentry category-we-chat category-seo tag-134 tag-132 tag-search-engines tag-131 tag-133">
+                <!-- Image -->
+
+                <div class="grid-item post_featured_image">
+                    <div class="link_image aspect_original" style="border-radius: 5px">
+                        <img width="900" height="500" src="{{article.images}}" class="attachment-large size-large wp-post-image"
+                            alt="网络营销推广的优势的照片" srcset="{{article.images}} 900w, {{article.images}} 480w, {{article.images}} 768w"
+                            sizes="(max-width: 900px) 100vw, 900px" title="网络营销推广的优势 的图片" /> </div>
+                </div>
+
+
+                <!-- Content -->
+                <div class="blog-content">
+                    {{article.content}}
+                    <div id="dxseo-related-posts" style="clear:both;"><h3 style="margin:20px 0 10px;padding:0;font-weight:bold;font-size:14px;">相关文章</h3><ul class="dxseo-rl-items"><li style="list-style-type: disc;" class="dxseo-rl-item"><a href="http://iebee.cn/2018/03/16/optimization-key-words/" target="_blank" title="如何优化关键词">如何优化关键词</a></li><li style="list-style-type: disc;" class="dxseo-rl-item"><a href="http://iebee.cn/2016/04/23/style/" target="_blank" title="你需要了解的做网站流程和注意事项">你需要了解的做网站流程和注意事项</a></li><li style="list-style-type: disc;" class="dxseo-rl-item"><a href="http://iebee.cn/2016/10/18/seo/" target="_blank" title="怎样才能做好网站优化？">怎样才能做好网站优化？</a></li><li style="list-style-type: disc;" class="dxseo-rl-item"><a href="http://iebee.cn/2018/03/12/marketing-promotion/" target="_blank" title="网络营销推广的优势">网络营销推广的优势</a></li><li style="list-style-type: disc;" class="dxseo-rl-item"><a href="http://iebee.cn/2018/02/09/seo-3/" target="_blank" title="网站优化时你需要知道的百度图文搜索结果优化方法">网站优化时你需要知道的百度图文搜索结果优化方法</a></li><li style="list-style-type: disc;" class="dxseo-rl-item"><a href="http://iebee.cn/2018/03/10/enterprise-website-seo/" target="_blank" title="你的企业网站优化做好了吗？">你的企业网站优化做好了吗？</a></li><li style="list-style-type: disc;" class="dxseo-rl-item"><a href="http://iebee.cn/2018/03/09/google/" target="_blank" title="针对Google如何优化网站建设">针对Google如何优化网站建设</a></li><li style="list-style-type: disc;" class="dxseo-rl-item"><a href="http://iebee.cn/2018/03/13/reason/" target="_blank" title="网站被收录没有排名是什么原因造成的？">网站被收录没有排名是什么原因造成的？</a></li></ul></div>
+                </div>
+
+            </div>
+            <!-- END Blog Post -->
+
+            <div class="post-tags">
+                <h4 class="post-tags-title">标签:</h4>
+                <a class="post-tag" href="http://iebee.cn/tag/%e5%b9%bf%e5%91%8a/">广告</a>
+                <a class="post-tag" href="http://iebee.cn/tag/%e6%88%90%e4%ba%a4%e7%8e%87/">成交率</a>
+                <a class="post-tag" href="http://iebee.cn/tag/search-engines/">搜索引擎</a>
+                <a class="post-tag" href="http://iebee.cn/tag/%e7%9f%a5%e5%90%8d%e5%ba%a6/">知名度</a>
+                <a class="post-tag" href="http://iebee.cn/tag/%e7%bd%91%e7%bb%9c%e5%b9%bf%e5%91%8a/">网络广告</a>
+            </div>
+
+            <!-- Social Sharing -->
+            <ul class="post-sharing">
+                <div class="bdsharebuttonbox">
+                    <a href="#" class="bds_more" data-cmd="more"></a>
+                    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+                    <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+                    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                </div>
+                <script>
+                    window._bd_share_config = {
+                        "common": {
+                            "bdSnsKey": {},
+                            "bdText": "",
+                            "bdMini": "2",
+                            "bdMiniList": false,
+                            "bdPic": "",
+                            "bdStyle": "1",
+                            "bdSize": "24"
+                        },
+                        "share": {}
+                    };
+                    with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script'))
+                        .src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' +
+                        ~(-new Date() / 36e5)];
+                </script>
+            </ul>
+
+
+            <div id="comments">
+
+                <div id="respond" class="comment-respond">
+                    <h3 id="reply-title" class="comment-reply-title">发表评论
+                        <small>
+                            <a rel="nofollow" id="cancel-comment-reply-link" href="/2018/03/12/marketing-promotion/#respond" style="display:none;">取消回复</a>
+                        </small>
+                    </h3>
+                    <form action="http://iebee.cn/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+                        <p class="comment-notes">
+                            <span id="email-notes">电子邮件地址不会被公开。</span> 必填项已用
+                            <span class="required">*</span>标注</p>
+                        <textarea id="comment" name="comment" placeholder="Comment *" aria-included="true"></textarea>
+                        <input id="author" name="author" placeholder="名称 *" type="text" value="" size="30" />
+                        <input id="email" name="email" placeholder="电子邮箱 *" type="text" value="" size="30" />
+                        <input id="url" name="url" placeholder="网址" type="text" value="" size="30" />
+                        <p class="form-submit">
+                            <input name="submit" type="submit" id="submit" class="submit" value="发表评论" />
+                            <input type='hidden' name='comment_post_ID' value='11625' id='comment_post_ID' />
+                            <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                        </p>
+                    </form>
+                </div>
+                <!-- #respond -->
+
+            </div>
+        </div>
+
+    {%endblock%}
+
+
+ 

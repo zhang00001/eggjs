@@ -1,0 +1,217 @@
+a.button,
+input[type="submit"],
+button,
+.vc_btn3-container a {
+    line-height: 3.9em
+}
+
+;
+i {
+    color: #e63041
+}
+
+;
+.header.white .topnav>li>a {
+    color: rgba(56, 56, 56, 0.75)
+}
+
+;
+.header.dark .topnav>li>a,
+.header.dark .search-click:after {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+;
+.header.white .topnav li.current-menu-item>a,
+.header.white .topnav li.current-menu-ancestor>a,
+.header.white .topnav li.current_page_parent>a,
+.header.white .topnav li.current-menu-parent>a,
+.header.white .topnav>li>a {
+    color: #383838
+}
+
+;
+.header.dark .topnav li.current-menu-item>a,
+.header.dark .topnav li.current-menu-ancestor>a,
+.header.dark .topnav li.current_page_parent>a,
+.header.dark .topnav li.current-menu-parent>a {
+    color: #FFFFFF
+}
+
+;
+.header.white .topsocial li a i {
+    color: rgba(56, 56, 56, 0.6);
+}
+
+.header.dark .topsocial li a i {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+;
+.header.white .search-click:after {
+    color: #383838;
+}
+
+.header.dark .search-click:after {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+;
+.header.white .header_cta_section a {
+    border-color: #cccccc;
+}
+
+.header.white .header_cta_section a {
+    color: #383838
+}
+
+;
+.header.dark .header_cta_section a {
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+.header.dark .header_cta_section a {
+    color: #ffffff
+}
+
+;
+h1 {
+    font-family: 微软雅黑;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.4em
+}
+
+;
+h2 {
+    font-family: 微软雅黑;
+    letter-spacing: -0.03em;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.2em;
+}
+
+h3,
+th,
+h2.widgettitle,
+h3.wpb_accordion_header a,
+body .vc_toggle_title>h4,
+.wpb_widgetised_column h2 {
+    font-family: 微软雅黑;
+    letter-spacing: -0.02em;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+h4 {
+    font-family: 微软雅黑;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.0em;
+}
+
+body,
+.tp-caption {
+    font-family: 微软雅黑;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.topnav li a {
+    font-family: 微软雅黑;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.07em;
+}
+
+.topnav li>ul li a,
+.mobilenav li>ul li {
+    font-family: 微软雅黑;
+    letter-spacing: -0.02rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.86rem;
+}
+
+.topnav>li.current-menu-item>a,
+.topnav>li.current_page_parent>a,
+.topnav>li.current-menu-ancestor>a,
+.topnav>li.current-menu-parent>a {
+    font-family: 微软雅黑;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header .logo {
+    font-family: 微软雅黑;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+}
+
+a.button,
+input[type="submit"],
+button,
+.vc_btn3-container a.vc_btn3,
+.ubtn,
+.cta-bar-button a.button {
+    font-family: 微软雅黑;
+    text-transform: uppercase;
+    letter-spacing: 0.01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.86rem;
+}
+
+.testimonial-text,
+blockquote {
+    font-family: 微软雅黑;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-style: italic;
+}
+
+input,
+textarea,
+select {
+    font-family: 微软雅黑;
+    letter-spacing: 0em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.home-cta-bar .text {
+    font-family: Montserrat;
+    letter-spacing: 0em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+html body strong {
+    font-family: "Basix Montserrat Medium";
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header a.header_cta {
+    line-height: 1.75em;
+}
+
+.grid .blog-post h2.inner-title,
+.vc_gitem-post-data h4 {
+    font-family: 微软雅黑;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+}
+
+.cta a.button:hover {
+    background: none !important;
+}

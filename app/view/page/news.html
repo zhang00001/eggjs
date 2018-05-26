@@ -1,0 +1,317 @@
+{% extends "./header.html" %} {% block content %}
+
+
+<style>
+    .header .dark .logo,
+    .dark .logo a,
+    .header .dark .logo a:hover {
+        color: #2a2a2a;
+    }
+    
+    .transparent_header .dark .logo span,
+    .transparent_header .dark .logo a span {
+        color: #e63041 !important;
+    }
+    
+    .header.dark .topnav li.current-menu-item>a,
+    .header.dark .topnav li.current-menu-ancestor>a,
+    .header.dark .topnav li.current_page_parent>a,
+    .header.dark .topnav li.current-menu-parent>a,
+    .header.dark .topnav>li>a,
+    .header.dark .search-click:after {
+        color: #2a2a2a;
+    }
+    
+    .header.dark .topnav>li:hover>a,
+    {
+        color: #2a2a2a;
+    }
+    
+    .header.dark .topnav li.menu-item-has-children a:after,
+    .header.dark .topnav li.current-menu-item>a,
+    .header.dark .topnav>li:hover>a {
+        color: #2a2a2a !important;
+    }
+</style>
+<div class="main-content blog-grid with-sidebar">
+    {% block title %}
+    <div class="title-container custom" style="">
+        <div class="content-width">
+            <h1>新闻资讯</h1>
+        </div>
+    </div>
+    {%endblock%}
+
+    <div class="main-content-inner content-width title-block">
+
+
+        <!-- Main Column / Sidebar -->
+        <div class="column-container">
+
+            <!-- Main Column -->
+
+            {% block article %}
+            <div class="column-three-qtr main-column">
+
+                <ul class="blog-list grid">
+                    {% for article in articles %}
+                    <li class="blog-post grid-item">
+                        <div id="post-11644" class="post-11644 post type-post status-publish format-standard has-post-thumbnail hentry category-gallery category-design tag-147 tag-layout tag-148">
+                            <!-- Image -->
+                            <a href="/article-detail/?articleId={{article.id}}" class="link_image aspect_16-10" style="background-image:url('{{article.images[0]}}');  border-radius: 5px "></a>
+
+                            <!-- Content -->
+                            <div class="blog-content">
+                                <div class="grid-cat">
+                                    <a href="http://iebee.cn/category/gallery/" rel="category tag">{{article.name}}</a>
+
+                                </div>
+                                <!-- Title -->
+                                <h2 class="inner-title">
+                                    <a href="/article-detail/?articleId={{article.id}}" title="Permalink to {{article.title}}" rel="bookmark">{{article.title}}</a>
+                                </h2>
+                                <!-- Meta -->
+                                <div class="blog-meta">
+                                    <div class="meta-item published">
+                                        <div class="meta-title published"></div>{{article.created_at | date('dd M月 yyyy')}} </div>
+                                    <div class="meta-item author">
+                                        <div class="meta-title author"></div>
+                                        admin </div>
+                                    <div class="meta-item views">
+                                        <div class="meta-title views"></div>{{article.click_num}} </div>
+                                    <div class="meta-item comments">
+                                        <div class="meta-title comments"></div>
+                                        <a href="/article-detail/?articleId={{article.id}}">{{article.comment_num}} </a>
+                                    </div>
+                                    <div class="meta-item cats">
+                                        <div class="meta-title cats"></div>
+                                        <a href="/article-detail/?articleId={{article.id}}" rel="category tag">{{article.name}}</a>,
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Read More Button -->
+                            <a href="/article-detail/?articleId={{article.id}}" class="read-more">继续阅读</a>
+                        </div>
+                    </li>
+
+
+                    {% endfor %}
+
+
+                    <!-- Blog Post -->
+
+                    <!-- END Blog Post -->
+
+
+
+                </ul>
+
+
+                <!-- Navigation -->
+
+                <nav class="navigation pagination" role="navigation">
+                    <h2 class="screen-reader-text">文章导航</h2>
+                    <div class="nav-links">
+                        <span class='page-numbers current'>1</span>
+                        <a class='page-numbers' href='/news/2'>{{total}}</a>
+                        <span class="page-numbers dots">&hellip;</span>
+                        <a class='page-numbers' href='http://iebee.cn/news/page/4/'>4</a>
+                        <a class="next page-numbers" href="http://iebee.cn/news/page/2/">下一篇</a>
+                    </div>
+                </nav>
+                <!-- END Navigation -->
+
+            </div>
+            {%endblock%}
+            <!-- END Main Column -->
+
+            <!-- Sidebar -->
+
+            <div class="column-one-fourth sidebar">
+                <div id="search-3" class="widget widget_search">
+                    <h3>文章搜索</h3>
+                    <form role="search" method="get" id="searchform" class="searchform" action="http://iebee.cn/">
+                        <div>
+                            <label class="screen-reader-text" for="s">搜索：</label>
+                            <input type="text" value="" name="s" placeholder="Search ..." id="s">
+                            <input type="submit" id="searchsubmit" value="">
+                        </div>
+                    </form>
+                </div>
+                <div id="tag_cloud-2" class="widget widget_tag_cloud">
+                    <h3>标签</h3>
+                    <div class="tagcloud">
+                        <a href="http://iebee.cn/tag/tdk/" class="tag-link-83 tag-link-position-1" title="1个话题" style="font-size: 8pt;">tdk</a>
+                        <a href="http://iebee.cn/tag/code/" class="tag-link-57 tag-link-position-2" title="3个话题" style="font-size: 13.185185185185pt;">代码</a>
+                        <a href="http://iebee.cn/tag/seo/" class="tag-link-53 tag-link-position-3" title="9个话题" style="font-size: 20.098765432099pt;">优化</a>
+                        <a href="http://iebee.cn/tag/experience/" class="tag-link-47 tag-link-position-4" title="1个话题" style="font-size: 8pt;">体验</a>
+                        <a href="http://iebee.cn/tag/element/" class="tag-link-45 tag-link-position-5" title="1个话题" style="font-size: 8pt;">元素</a>
+                        <a href="http://iebee.cn/tag/%e5%85%b3%e9%94%ae%e8%af%8d/" class="tag-link-86 tag-link-position-6" title="7个话题" style="font-size: 18.37037037037pt;">关键词</a>
+                        <a href="http://iebee.cn/tag/%e5%86%85%e5%ae%b9/" class="tag-link-143 tag-link-position-7" title="2个话题" style="font-size: 11.111111111111pt;">内容</a>
+                        <a href="http://iebee.cn/tag/%e5%88%86%e5%b8%83/" class="tag-link-101 tag-link-position-8" title="1个话题" style="font-size: 8pt;">分布</a>
+                        <a href="http://iebee.cn/tag/%e5%88%9b%e6%84%8f%e8%ae%be%e8%ae%a1/" class="tag-link-106 tag-link-position-9" title="1个话题" style="font-size: 8pt;">创意设计</a>
+                        <a href="http://iebee.cn/tag/future/" class="tag-link-55 tag-link-position-10" title="1个话题" style="font-size: 8pt;">前程科技</a>
+                        <a href="http://iebee.cn/tag/%e5%8a%a0%e8%bd%bd%e9%80%9f%e5%ba%a6/" class="tag-link-104 tag-link-position-11" title="1个话题" style="font-size: 8pt;">加载速度</a>
+                        <a href="http://iebee.cn/tag/%e5%8e%9f%e5%88%9b/" class="tag-link-88 tag-link-position-12" title="1个话题" style="font-size: 8pt;">原创</a>
+                        <a href="http://iebee.cn/tag/%e5%9b%be%e5%83%8f/" class="tag-link-85 tag-link-position-13" title="1个话题" style="font-size: 8pt;">图像</a>
+                        <a href="http://iebee.cn/tag/%e5%a4%96%e9%93%be/" class="tag-link-90 tag-link-position-14" title="2个话题" style="font-size: 11.111111111111pt;">外链</a>
+                        <a href="http://iebee.cn/tag/%e5%ad%97%e4%bd%93/" class="tag-link-108 tag-link-position-15" title="1个话题" style="font-size: 8pt;">字体</a>
+                        <a href="http://iebee.cn/tag/%e5%ae%9a%e4%bd%8d/" class="tag-link-100 tag-link-position-16" title="2个话题" style="font-size: 11.111111111111pt;">定位</a>
+                        <a href="http://iebee.cn/tag/%e5%af%bc%e8%88%aa/" class="tag-link-97 tag-link-position-17" title="2个话题" style="font-size: 11.111111111111pt;">导航</a>
+                        <a href="http://iebee.cn/tag/layout/" class="tag-link-46 tag-link-position-18" title="5个话题" style="font-size: 16.296296296296pt;">布局</a>
+                        <a href="http://iebee.cn/tag/%e6%88%90%e4%ba%a4%e9%87%8f/" class="tag-link-103 tag-link-position-19" title="1个话题" style="font-size: 8pt;">成交量</a>
+                        <a href="http://iebee.cn/tag/technology/" class="tag-link-56 tag-link-position-20" title="1个话题" style="font-size: 8pt;">技术</a>
+                        <a href="http://iebee.cn/tag/button/" class="tag-link-43 tag-link-position-21" title="1个话题" style="font-size: 8pt;">按钮</a>
+                        <a href="http://iebee.cn/tag/%e6%8e%92%e5%90%8d/" class="tag-link-87 tag-link-position-22" title="2个话题" style="font-size: 11.111111111111pt;">排名</a>
+                        <a href="http://iebee.cn/tag/%e6%8e%92%e7%89%88/" class="tag-link-107 tag-link-position-23" title="1个话题" style="font-size: 8pt;">排版</a>
+                        <a href="http://iebee.cn/tag/%e6%8e%a8%e5%b9%bf/" class="tag-link-111 tag-link-position-24" title="2个话题" style="font-size: 11.111111111111pt;">推广</a>
+                        <a href="http://iebee.cn/tag/search-engines/" class="tag-link-58 tag-link-position-25" title="12个话题" style="font-size: 22pt;">搜索引擎</a>
+                        <a href="http://iebee.cn/tag/%e6%94%b6%e5%bd%95/" class="tag-link-89 tag-link-position-26" title="5个话题" style="font-size: 16.296296296296pt;">收录</a>
+                        <a href="http://iebee.cn/tag/%e6%9d%83%e9%87%8d/" class="tag-link-91 tag-link-position-27" title="2个话题" style="font-size: 11.111111111111pt;">权重</a>
+                        <a href="http://iebee.cn/tag/%e6%a0%87%e7%ad%be/" class="tag-link-92 tag-link-position-28" title="1个话题" style="font-size: 8pt;">标签</a>
+                        <a href="http://iebee.cn/tag/%e7%89%88%e9%9d%a2/" class="tag-link-95 tag-link-position-29" title="1个话题" style="font-size: 8pt;">版面</a>
+                        <a href="http://iebee.cn/tag/%e7%94%a8%e6%88%b7%e4%bd%93%e9%aa%8c/" class="tag-link-98 tag-link-position-30" title="3个话题" style="font-size: 13.185185185185pt;">用户体验</a>
+                        <a href="http://iebee.cn/tag/%e7%9b%88%e5%88%a9/" class="tag-link-112 tag-link-position-31" title="1个话题" style="font-size: 8pt;">盈利</a>
+                        <a href="http://iebee.cn/tag/%e7%ab%99%e9%95%bf/" class="tag-link-84 tag-link-position-32" title="1个话题" style="font-size: 8pt;">站长</a>
+                        <a href="http://iebee.cn/tag/plan/" class="tag-link-70 tag-link-position-33" title="1个话题" style="font-size: 8pt;">策划</a>
+                        <a href="http://iebee.cn/tag/website/" class="tag-link-49 tag-link-position-34" title="1个话题" style="font-size: 8pt;">网站</a>
+                        <a href="http://iebee.cn/tag/%e7%bd%91%e7%ab%99%e4%bc%98%e5%8c%96/" class="tag-link-113 tag-link-position-35" title="1个话题" style="font-size: 8pt;">网站优化</a>
+                        <a href="http://iebee.cn/tag/%e7%bd%91%e7%ab%99%e5%9c%b0%e5%9b%be/" class="tag-link-102 tag-link-position-36" title="1个话题" style="font-size: 8pt;">网站地图</a>
+                        <a href="http://iebee.cn/tag/desinger/" class="tag-link-44 tag-link-position-37" title="1个话题" style="font-size: 8pt;">网站设计师</a>
+                        <a href="http://iebee.cn/tag/%e7%bd%91%e7%bb%9c%e5%bb%ba%e8%ae%be/" class="tag-link-93 tag-link-position-38" title="1个话题" style="font-size: 8pt;">网络建设</a>
+                        <a href="http://iebee.cn/tag/%e8%89%b2%e5%bd%a9/" class="tag-link-105 tag-link-position-39" title="1个话题" style="font-size: 8pt;">色彩</a>
+                        <a href="http://iebee.cn/tag/%e8%89%ba%e6%9c%af/" class="tag-link-109 tag-link-position-40" title="1个话题" style="font-size: 8pt;">艺术</a>
+                        <a href="http://iebee.cn/tag/%e8%a7%86%e8%a7%89/" class="tag-link-96 tag-link-position-41" title="1个话题" style="font-size: 8pt;">视觉</a>
+                        <a href="http://iebee.cn/tag/design/" class="tag-link-69 tag-link-position-42" title="7个话题" style="font-size: 18.37037037037pt;">设计</a>
+                        <a href="http://iebee.cn/tag/%e9%93%be%e6%8e%a5/" class="tag-link-136 tag-link-position-43" title="2个话题" style="font-size: 11.111111111111pt;">链接</a>
+                        <a href="http://iebee.cn/tag/demand/" class="tag-link-78 tag-link-position-44" title="2个话题" style="font-size: 11.111111111111pt;">需求</a>
+                        <a href="http://iebee.cn/tag/%e9%a3%8e%e6%a0%bc/" class="tag-link-99 tag-link-position-45" title="1个话题" style="font-size: 8pt;">风格</a>
+                    </div>
+                </div>
+                <div id="categories-2" class="widget widget_categories">
+                    <h3>分类目录</h3>
+                    <ul>
+                        {% for group in groups %}
+
+                        <li class="cat-item cat-item-4">
+                            <a href="../news/?groupId={{group.id}}">{{group.name}}</a>
+                        </li>
+                        {% endfor %}
+
+
+                    </ul>
+                </div>
+                <style>
+                    .rpwe-block ul {
+                        list-style: none !important;
+                        margin-left: 0 !important;
+                        padding-left: 0 !important;
+                    }
+                    
+                    .rpwe-block li {
+                        border-bottom: 1px solid #eee;
+                        margin-bottom: 10px;
+                        padding-bottom: 10px;
+                        list-style-type: none;
+                    }
+                    
+                    .rpwe-block a {
+                        display: inline !important;
+                        text-decoration: none;
+                    }
+                    
+                    .rpwe-block h3 {
+                        background: none !important;
+                        clear: none;
+                        margin-bottom: 0 !important;
+                        margin-top: 0 !important;
+                        font-weight: 400;
+                        font-size: 12px !important;
+                        line-height: 1.5em;
+                    }
+                    
+                    .rpwe-thumb {
+                        border: 1px solid #EEE !important;
+                        box-shadow: none !important;
+                        margin: 2px 10px 2px 0;
+                        padding: 3px !important;
+                    }
+                    
+                    .rpwe-summary {
+                        font-size: 12px;
+                    }
+                    
+                    .rpwe-time {
+                        color: #bbb;
+                        font-size: 11px;
+                    }
+                    
+                    .rpwe-comment {
+                        color: #bbb;
+                        font-size: 11px;
+                        padding-left: 5px;
+                    }
+                    
+                    .rpwe-alignleft {
+                        display: inline;
+                        float: left;
+                    }
+                    
+                    .rpwe-alignright {
+                        display: inline;
+                        float: right;
+                    }
+                    
+                    .rpwe-aligncenter {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    
+                    .rpwe-clearfix:before,
+                    .rpwe-clearfix:after {
+                        content: "";
+                        display: table !important;
+                    }
+                    
+                    .rpwe-clearfix:after {
+                        clear: both;
+                    }
+                    
+                    .rpwe-clearfix {
+                        zoom: 1;
+                    }
+                </style>
+                <div id="rpwe_widget-2" class="widget rpwe_widget recent-posts-extended">
+                    <h3>最新文章</h3>
+                    <div class="rpwe-block ">
+                        <ul class="rpwe-ul">
+
+                            {% for article in articles %}
+                            <li class="rpwe-li rpwe-clearfix">
+                                <a class="rpwe-img" href="/article-detail/?articleId={{article.id}}" rel="bookmark">
+                                    <img class="rpwe-alignleft rpwe-thumb" src="{{article.images[0]}}?x-oss-process=style/mini" alt="{{article.title}}">
+                                </a>
+                                <h3 class="rpwe-title">
+                                    <a href="/article-detail/?articleId={{article.id}}" title="Permalink to {{article.title}}" rel="bookmark">{{article.title}}</a>
+                                </h3>
+                                <time class="rpwe-time published" datetime="2018-03-19T16:52:00+00:00">{{article.created_at | date('yyyy年m月dd日')}}</time>
+                            </li>
+
+                            {% endfor %}
+
+
+                        </ul>
+                    </div>
+                    <!-- Generated by http://wordpress.org/plugins/recent-posts-widget-extended/ -->
+                </div>
+            </div>
+            <!-- END Sidebar -->
+
+        </div>
+        <!-- END Main Column / Sidebar -->
+
+    </div>
+</div> {%endblock%}

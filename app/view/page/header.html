@@ -1,0 +1,1831 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <title>前程科技 &#8211; 最懂您的网络建设云平台</title>
+    <link rel='stylesheet' href='/css/fontawesome_1.css' type='text/css' />
+    <link rel='stylesheet' id='bsf-elegant-css' href='/css/elegant_1.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css' href='/css/settings.css' type='text/css' media='all' />
+
+    <link rel='stylesheet' id='basix-style-css' href='/css/style.css' type='text/css' media='screen' />
+    <link rel='stylesheet' id='js_composer_front-css' href='/css/js_composer.min.css' type='text/css' media='all' />
+    <script type='text/javascript' src='http://iebee.cn/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+    <script type='text/javascript' src='http://iebee.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='http://iebee.cn/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.3.1'></script>
+    <script type='text/javascript' src='http://iebee.cn/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.3.1'></script>
+
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://iebee.cn/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+    <style type="text/css" title="dynamic-css" class="options-output">
+        a.button,
+        input[type="submit"],
+        button,
+        .vc_btn3-container a {
+            line-height: 3.9em;
+        }
+        
+        i {
+            color: #e63041;
+        }
+        
+        .header.white .topnav>li>a {
+            color: rgba(56, 56, 56, 0.75);
+        }
+        
+        .header.dark .topnav>li>a,
+        .header.dark .search-click:after {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .header.white .topnav li.current-menu-item>a,
+        .header.white .topnav li.current-menu-ancestor>a,
+        .header.white .topnav li.current_page_parent>a,
+        .header.white .topnav li.current-menu-parent>a {
+            color: #383838;
+        }
+        
+        .header.dark .topnav li.current-menu-item>a,
+        .header.dark .topnav li.current-menu-ancestor>a,
+        .header.dark .topnav li.current_page_parent>a,
+        .header.dark .topnav li.current-menu-parent>a {
+            color: #FFFFFF;
+        }
+        
+        .header.white .topsocial li a i {
+            color: rgba(56, 56, 56, 0.6);
+        }
+        
+        .header.dark .topsocial li a i {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .header.white .search-click:after {
+            color: #383838;
+        }
+        
+        .header.dark .search-click:after {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .header.white .header_cta_section a {
+            border-color: #cccccc;
+        }
+        
+        .header.white .header_cta_section a {
+            color: #383838;
+        }
+        
+        .header.dark .header_cta_section a {
+            border-color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .header.dark .header_cta_section a {
+            color: #ffffff;
+        }
+        
+        h1 {
+            font-family: 微软雅黑;
+            letter-spacing: -0.03em;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 3.4em;
+        }
+        
+        h2 {
+            font-family: 微软雅黑;
+            letter-spacing: -0.03em;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 2.2em;
+        }
+        
+        h3,
+        th,
+        h2.widgettitle,
+        h3.wpb_accordion_header a,
+        body .vc_toggle_title>h4,
+        .wpb_widgetised_column h2 {
+            font-family: 微软雅黑;
+            letter-spacing: -0.02em;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 1.2em;
+        }
+        
+        h4 {
+            font-family: 微软雅黑;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.0em;
+        }
+        
+        body,
+        .tp-caption {
+            font-family: 微软雅黑;
+            letter-spacing: 0px;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 14px;
+        }
+        
+        .topnav li a {
+            font-family: 微软雅黑;
+            letter-spacing: -0.02em;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.07em;
+        }
+        
+        .topnav li>ul li a,
+        .mobilenav li>ul li {
+            font-family: 微软雅黑;
+            letter-spacing: -0.02rem;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 0.86rem;
+        }
+        
+        .topnav>li.current-menu-item>a,
+        .topnav>li.current_page_parent>a,
+        .topnav>li.current-menu-ancestor>a,
+        .topnav>li.current-menu-parent>a {
+            font-family: 微软雅黑;
+            font-weight: 400;
+            font-style: normal;
+        }
+        
+        .header .logo {
+            font-family: 微软雅黑;
+            letter-spacing: -1px;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 28px;
+        }
+        
+        a.button,
+        input[type="submit"],
+        button,
+        .vc_btn3-container a.vc_btn3,
+        .ubtn,
+        .cta-bar-button a.button {
+            font-family: 微软雅黑;
+            text-transform: uppercase;
+            letter-spacing: 0.01rem;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 0.86rem;
+        }
+        
+        .testimonial-text,
+        blockquote {
+            font-family: 微软雅黑;
+            letter-spacing: -0.01em;
+            font-weight: 400;
+            font-style: italic;
+        }
+        
+        input,
+        textarea,
+        select {
+            font-family: 微软雅黑;
+            letter-spacing: 0em;
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        .home-cta-bar .text {
+            font-family: Montserrat;
+            letter-spacing: 0em;
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        html body strong {
+            font-family: "Basix Montserrat Medium";
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        .header a.header_cta {
+            line-height: 1.75em;
+        }
+        
+        .grid .blog-post h2.inner-title,
+        .vc_gitem-post-data h4 {
+            font-family: 微软雅黑;
+            letter-spacing: -0.02em;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.4em;
+        }
+    </style>
+    <style type="text/css" data-type="vc_custom-css">
+        .cta a.button:hover {
+            background: none !important;
+        }
+    </style>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1475698558278 {
+            background-color: #ffffff !important;
+        }
+        
+        .vc_custom_1480617388306 {
+            background-color: #f3f3f3 !important;
+        }
+        
+        .vc_custom_1480632168358 {
+            padding-top: 4.5em !important;
+            padding-bottom: 0px !important;
+            background-color: #ffffff !important;
+        }
+        
+        .vc_custom_1515467442127 {
+            padding-top: 8em !important;
+            padding-bottom: 4em !important;
+            background-color: #f6f6f6 !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+        
+        .vc_custom_1516348264672 {
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+            background-image: url(http://iebee.cn/wp-content/uploads/2016/11/28efabf02ea881d89514f659c29d27c0.jpg?id=10544) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+        
+        .vc_custom_1476518568426 {
+            margin-top: 3em !important;
+        }
+        
+        .vc_custom_1515487984376 {
+            margin-bottom: 1.4em !important;
+        }
+        
+        .vc_custom_1515487997130 {
+            margin-bottom: 2em !important;
+        }
+        
+        .vc_custom_1480617342186 {
+            margin-bottom: 3em !important;
+            padding-top: 3em !important;
+            padding-bottom: 1em !important;
+            background-color: #ffffff !important;
+            border-radius: 4px !important;
+        }
+        
+        .vc_custom_1480617352326 {
+            margin-bottom: 3em !important;
+            padding-top: 3em !important;
+            padding-bottom: 1em !important;
+            background-color: #ffffff !important;
+            border-radius: 4px !important;
+        }
+        
+        .vc_custom_1480617356646 {
+            margin-bottom: 3em !important;
+            padding-top: 3em !important;
+            padding-bottom: 1em !important;
+            background-color: #ffffff !important;
+            border-radius: 4px !important;
+        }
+        
+        .vc_custom_1475489009605 {
+            padding-right: 12% !important;
+            padding-left: 12% !important;
+        }
+        
+        .vc_custom_1478695616723 {
+            margin-bottom: 3em !important;
+        }
+        
+        .vc_custom_1480848943285 {
+            padding-top: 6em !important;
+            padding-right: 6em !important;
+            padding-bottom: 6em !important;
+            background-color: #3f51b5 !important;
+        }
+        
+        .vc_custom_1478690193829 {
+            padding-top: 30vh !important;
+            padding-bottom: 30vh !important;
+        }
+        
+        .vc_custom_1515488163471 {
+            margin-bottom: 1.4em !important;
+        }
+        
+        .vc_custom_1515488177791 {
+            margin-bottom: 2.4em !important;
+        }
+        
+        .vc_custom_1515490882501 {
+            margin-bottom: 0px !important;
+        }
+    </style>
+    <noscript>
+        <style type="text/css">
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+    <script>
+        jQuery(window).load(function() {
+            jQuery(".main-container").animate({
+                opacity: 1
+            }, 300);
+        });
+    </script>
+    <style media="screen" type="text/css">
+        /* --------------------------------------------------------------------------------- */
+        /* Custom CSS Table of Contents
+	/* --------------------------------------------------------------------------------- */
+        /*
+	* Main Color
+	* Accent Color
+	* Top Navigation
+	* Scrollbar
+	* Header
+	* Mobile Navigation
+	* Blockquotes
+	* Tooltips
+	* Custom Body Text Color
+	* Misc
+	* Conditional CSS
+	*/
+        /* --------------------------------------------------------------------------------- */
+        /* Main Color
+	/* --------------------------------------------------------------------------------- */
+        /* Foreground
+	/* -------------------------------- */
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        h1 a,
+        h2 a,
+        h3 a,
+        h4 a,
+        h5 a,
+        h6 a,
+        a:hover,
+        .home-banner.light .slider-nav li a:hover,
+        .light-bg #portfolio-filters li span:hover,
+        .light-bg .blog-nav a:hover.back:before,
+        .light-bg .blog-nav>a:hover.next:after,
+        .footer.white a:hover,
+        .footer.light a:hover,
+        .white .logo,
+        .white .logo a,
+        .mobilenav li a,
+        .home-banner.light h1,
+        .home-banner.light .slider-nav li a.active,
+        select option,
+        .light-bg .accordion-header,
+        .tabs li a.active,
+        .arrow-list li:before,
+        .light-bg .arrow-list li:before,
+        .light-bg .table-style-1 th,
+        .client-logos-title span,
+        .light-bg .client-logos-title span,
+        .light-bg .team .social i,
+        .light-bg .portfolio-cats-title,
+        .light-bg .post-sharing a i,
+        .footer.white h3,
+        .footer.light h3,
+        .footer-newsletter .textbox,
+        .error-404-title,
+        .home-cta-bar,
+        .footer-infobar.alternate,
+        .mejs-overlay-play:after,
+        .light-bg .categories_filter li.active a,
+        .light-bg .stats-number,
+        .cta-bar.grey .cta-bar-text,
+        .light-bg .wpb_tabs_nav li.ui-tabs-active a,
+        .tp-caption[class*=dark_title],
+        .tp-caption[class*=dark_icon],
+        .footer.light .footer-social i,
+        .footer.white .footer-social i,
+        .forum-titles li,
+        .light-bg #bbpress-forums fieldset.bbp-form legend,
+        #bbpress-forums fieldset.bbp-form label,
+        .light-bg .bbp-breadcrumb:before,
+        .light-bg .bbp-forum-header a.bbp-forum-permalink,
+        .light-bg .bbp-topic-header a.bbp-topic-permalink,
+        .light-bg .bbp-reply-header a.bbp-reply-permalink,
+        .light-bg .bbp-forum-title,
+        a.bbp-topic-permalink,
+        .light-bg .bbp-search-author,
+        .light-bg .bbp-search-content,
+        .header.white .search i,
+        .footer.light .footer-lower-container a,
+        .footer.white .footer-lower-container a,
+        .light-bg .main-content .widget li.menu-item a:hover,
+        a.button.bordered,
+        button.bordered,
+        input.bordered[type="submit"],
+        h3.rpwe-title a,
+        .light-bg .price,
+        .light-bg .per_month,
+        .header.white .topsocial li i,
+        .light-bg .meta-title:before,
+        .header.white .topnav li.menu-item-has-children a:after {
+            color: #2a2a2a;
+        }
+        
+        .footer.light .widget_nav_menu a,
+        .footer.white .widget_nav_menu a {
+            color: #808080 !important;
+        }
+        
+        .footer.light .widget_nav_menu a:hover,
+        .footer.white .widget_nav_menu a:hover {
+            color: #e63041 !important;
+        }
+        
+        .main-color i {
+            color: #2a2a2a !important;
+        }
+        /* Important */
+        
+        .main-color i,
+        a.button.white,
+        a.button.white i,
+        .dark-bg .vc_tta-tab>a,
+        .vc_tta-panel-title a,
+        ul.blog-list.masonry a:hover.button.accent.read-more,
+        ul.blog-list.masonry a:hover.button.accent.read-more:after,
+        a.button.transparent:hover,
+        button.transparent:hover,
+        input.transparent[type="submit"]:hover,
+        .dark-bg .owl-theme .owl-controls .owl-nav [class*=owl-]:hover,
+        .header.dark .search>i.focus {
+            color: #2a2a2a !important;
+        }
+        /* Material style forms */
+        
+        body.material_form_inputs input[type="text"],
+        body.material_form_inputs textarea,
+        body.material_form_inputs select {
+            border-bottom-color: rgba(42, 42, 42, 0.24);
+        }
+        
+        body.material_form_inputs input[type="text"]:focus,
+        body.material_form_inputs textarea:focus,
+        body.material_form_inputs select:focus {
+            border-color: #e63041;
+        }
+        /* -------------------------------- */
+        /* Background
+	/* -------------------------------- */
+        
+        .main-color-bg,
+        .dark-bg .main-container,
+        .dark-bg .client-logos-title span,
+        .header.dark,
+        .home-banner.dark,
+        a.button,
+        a.button.main,
+        button,
+        button.main,
+        .action-box.main,
+        .footer-container.dark,
+        .main-content .title-container.main,
+        .footer-infobar.main,
+        .home-cta-bar.main,
+        .light-bg .flip-box-wrap .flip_link a:hover,
+        .light-bg .flip-box-wrap .flip_link a:visited:hover,
+        .light-bg .flip-box-wrap .flip_link a:active:hover,
+        .banner-block .bb-top-title,
+        .light-bg .cta-bar.main,
+        .alert.main,
+        .mejs-container,
+        .mejs-embed,
+        .mejs-embed body,
+        .stretched-page.dark-bg,
+        .header .basix-tooltip,
+        #bbpress-forums li.bbp-header,
+        .footer .big_icons .footer-social li a:hover,
+        .white .mobilenav-button,
+        .white .mobilenav-button:before,
+        .white .mobilenav-button:after,
+        a.link_image:before {
+            background-color: #2a2a2a;
+        }
+        /* Important */
+        
+        .vc_single_bar.bar_main .vc_bar,
+        .fakeloader,
+        input.main[type="submit"],
+        .vc_pageable-load-more-btn .vc_btn3 {
+            background-color: #2a2a2a !important;
+        }
+        /* --------------------------------------------------------------------------------- */
+        /* Accent Color
+	/* --------------------------------------------------------------------------------- */
+        /* Foreground
+	/* -------------------------------- */
+        
+        a,
+        .white .logo span,
+        .white .logo a span,
+        .dark .logo span,
+        .dark .logo a span,
+        .mobilenav li.current-menu-item>a,
+        .home-banner h1 span,
+        .dark-bg #portfolio-filters li span,
+        .light-bg h1 a:hover,
+        .light-bg h2 a:hover,
+        .light-bg h3 a:hover,
+        .light-bg h4 a:hover,
+        .light-bg h5 a:hover,
+        .light-bg h6 a:hover,
+        .home-banner.light .slider-controls a:hover:after,
+        a i,
+        #clients-back a:hover:after,
+        #clients-next a:hover:after,
+        .light-bg .team .social i:hover,
+        .light-bg .post-sharing a i:hover,
+        .footer.light .footer-lower-container a:hover,
+        .mejs-overlay-play:hover:after,
+        .aio-icon,
+        .smile_icon_list.no_bg .icon_list_icon,
+        .light-bg .vc_toggle_title:hover,
+        .wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon,
+        .footer .widget_nav_menu li.current-menu-item>a,
+        a#cancel-comment-reply-link,
+        .tp-caption[class*=accent_icon],
+        .footer.light .footer-social i:hover,
+        .footer.white .footer-social i:hover,
+        .light-bg .vc_toggle_title:before,
+        .light-bg #content .vc_toggle_title:before,
+        .accent,
+        .light-bg span.bbp-admin-links a,
+        .bbp-forum-header a.bbp-forum-permalink:hover,
+        .bbp-topic-header a.bbp-topic-permalink:hover,
+        .bbp-reply-header a.bbp-reply-permalink:hover,
+        a.bbp-forum-title:hover,
+        a.bbp-topic-permalink:hover,
+        .bbp-header a.bbp-reply-author:hover,
+        .bbp-header a.bbp-reply-content:hover,
+        span.wpcf7-not-valid-tip,
+        .header.white .topnav>li:hover>a:after,
+        .jcarousel-item .category:before,
+        .grid-item .category:before,
+        .error-404-container>i,
+        .header .search-click:hover:after,
+        .grid-cat a:hover,
+        .light-bg #portfolio-filters li span.active,
+        label.error {
+            color: #e63041;
+        }
+        /* Important */
+        
+        a.accent-color,
+        i.accent-color,
+        i.accent,
+        span.accent-color,
+        .header.light .topsocial li a:hover i,
+        .header.white .topsocial li a:hover i,
+        .clients-carousel a.jcarousel-prev:hover:after,
+        .clients-carousel a.jcarousel-next:hover:after,
+        a.standard-nav.jcarousel-prev:hover:after,
+        a.standard-nav.jcarousel-next:hover:after,
+        .vc_tta-panel-title a:hover,
+        .vc_tta-panel.vc_active .vc_tta-panel-title a,
+        .vc_tta-tab a:hover,
+        .vc_tta-tab.vc_active a,
+        ul.blog-list.masonry a.read-more,
+        .bbp-pagination-links a.prev:after,
+        .bbp-pagination-links a.next:after,
+        .mobilenav a:hover,
+        .mobilenav a:hover:after,
+        .header.white .topnav>li:hover>a,
+        .header.white .topnav>li>a:hover,
+        .header.white .topnav>li>a:hover:after {
+            color: #e63041 !important;
+        }
+        
+        .popular .vc_column-inner:after {
+            border-color: transparent #e63041 transparent transparent;
+        }
+        /* Top nav dropdown arrows */
+        
+        .header.white .topnav li.menu-item-has-children a:hover:after {
+            color: inherit;
+        }
+        /* -------------------------------- */
+        /* Background
+	/* -------------------------------- */
+        
+        .main-content h1.bordered:after,
+        .divider:after,
+        .slide-style-2 .icon-backing,
+        .slider-nav li a.active:before,
+        a.button,
+        a.button.accent,
+        button.accent,
+        input.accent[type="submit"],
+        .basix-tooltip,
+        .action-box.accent,
+        .blog-meta:after,
+        .carousel-nav a:hover,
+        .top-of-page-link:hover,
+        .footer-infobar.accent,
+        .footer-newsletter .button,
+        .main-content .title-container.accent,
+        .home-cta-bar.accent,
+        .flip-box-wrap .flip_link a:visited,
+        .flip-box-wrap .flip_link a:active,
+        a.prev:hover,
+        a.next:hover,
+        nav a.page-numbers:hover,
+        a.jcarousel-prev:hover,
+        a.jcarousel-next:hover,
+        .cta-bar.accent,
+        .alert.accent,
+        .carousel-holder .mobile-pagination li.active,
+        .blog-post:after,
+        .blog-list .blog-post:after,
+        .topnav>li>ul.sub-menu>li.new a:before,
+        #bbpress-forums .button.submit,
+        .footer a.link_image:hover:before,
+        nav a.page-numbers:hover,
+        .jcarousel-prev:hover,
+        a.jcarousel-next:hover,
+        .main-content h1.bordered:before,
+        body.single-post .title_bordered .blog-meta:before,
+        .title_bordered .portfolio-filtering:before,
+        form input[type="submit"]:focus {
+            background-color: #e63041;
+        }
+        /* Important */
+        
+        .tp-caption.accent-bg,
+        .vc_row.accent-bg,
+        .accent-bg .tp-bgimg.defaultimg,
+        .accent-bg .rev_slider_wrapper,
+        .accent-bg>.expanded,
+        .accent-bg>[class*="vc_custom"],
+        .vc_single_bar.bar_accent .vc_bar,
+        .wpb_revslider_element.white-bg .tp-bannertimer,
+        .wpb_revslider_element.white-bg .tp-bullets.simplebullets.round .bullet.selected,
+        .wpb_revslider_element.white-bg .tp-bullets.simplebullets.round .bullet.selected:hover,
+        input[type="submit"].accent:focus,
+        input[type="submit"].accent,
+        a.button.accent,
+        button.accent,
+        input.accent[type="submit"],
+        .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span,
+        html body input[type="submit"],
+        .wpb_revslider_element.light-bg .rev_slider_wrapper .tp-bullets .tp-bullet.selected,
+        .wpb_revslider_element.light-bg .tp-bannertimer {
+            background-color: #e63041 !important;
+        }
+        /* Font Antialiasing */
+        
+        body {
+            -webkit-font-smoothing: antialiased;
+            font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        /* --------------------------------------------------------------------------------- */
+        /* Header
+	/* --------------------------------------------------------------------------------- */
+        
+        .header.white:after,
+        .header.dark:after {
+            display: none;
+        }
+        
+        .topbar,
+        .topnav>li,
+        .topnav>li>a,
+        .header .search i {
+            height: 74px;
+            line-height: 74px;
+        }
+        
+        .header .topnav>li>ul {
+            top: 74px;
+        }
+        
+        body.transparent_header_margin.bordered .main-content-inner {
+            padding-top: calc(4rem + 74px);
+        }
+        
+        body.transparent_header_margin .header.stretched .topnav>li:before,
+        body.transparent_header_margin .header .search>i:after {
+            background: transparent;
+        }
+        
+        .main-content {
+            margin-top: 74px !important;
+        }
+        
+        .main-content {
+            margin-top: 74px !important;
+        }
+        
+        .topnav li>ul {
+            background-color: rgba(42, 42, 42, 1.0);
+        }
+        /* Nav Align */
+        
+        ul.topsocial .basix-tooltip {
+            top: calc(74px -20%);
+        }
+        /* Left Navigation ------ */
+        
+        .header .topsocial {
+            margin-left: 0.75em;
+        }
+        /* Center navigation */
+        /* --------------------------------------------------------------------------------- */
+        /* Mobile Navigation
+	/* --------------------------------------------------------------------------------- */
+        
+        .mobilenav {
+            top: 74px;
+        }
+        /* --------------------------------------------------------------------------------- */
+        /* Blockquotes
+	/* --------------------------------------------------------------------------------- */
+        
+        blockquote {
+            border-left-color: #e63041 !important;
+        }
+        /* --------------------------------------------------------------------------------- */
+        /* Tooltips
+	/* --------------------------------------------------------------------------------- */
+        
+        .basix-tooltip:after {
+            border-top-color: #e63041;
+            border-right-color: transparent;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+        }
+        
+        ul.topsocial .basix-tooltip:after {
+            border-top-color: transparent;
+            border-right-color: transparent;
+            border-bottom-color: #2a2a2a;
+            border-left-color: transparent;
+        }
+        /* --------------------------------------------------------------------------------- */
+        /* Custom Body Text Color
+	/* --------------------------------------------------------------------------------- */
+        
+        body.light-bg,
+        body.light-bg.wh,
+        .main-content,
+        .footer.light,
+        .footer.white {
+            color: #808080;
+        }
+        
+        light-bg .title_excerpt {
+            color: #808080;
+        }
+        
+        .rpwe-time {
+            color: #808080 !important;
+        }
+        
+        input.button.white {
+            color: #2a2a2a !important;
+        }
+        /* --------------------------------------------------------------------------------- */
+        /* Misc
+	/* -------------------------------- */
+        /* Global Image Border Radius
+	/* -------------------------------- */
+        
+        body .vc_basic_grid .vc_gitem-zone,
+        .rpwe-thumb,
+        pre,
+        .crayon-syntax,
+        .wpb_single_image .vc_single_image-wrapper.vc_box_rounded,
+        .wpb_single_image .vc_single_image-wrapper.vc_box_rounded img,
+        .wpb_single_image .vc_single_image-wrapper,
+        body .link_image {
+            border-radius: 5px !important;
+        }
+        
+        html body .vc_grid.vc_row .vc_grid-item [class*="vc-gitem-zone-height-mode"],
+        html body .vc_basix_masonry_item_image,
+        html body .vc_basix_masonry_item_image a {
+            border-radius: 5px !important;
+        }
+        
+        html body [class*="vc-gitem-zone-height-mode"]:before,
+        .vc-gitem-zone-height-mode-auto:before,
+        html body .vc_basix_masonry_item_image:before {
+            border-radius: calc(5px + 1px) !important;
+        }
+        
+        html body .blog-list.grid.boxed .blog-post .post {
+            border-radius: 5px;
+        }
+        
+        .wpb_image_grid img.attachment-large,
+        .wpb_image_grid img.attachment-medium,
+        .wpb_image_grid img.attachment-thumbnail {
+            border-radius: 5px;
+        }
+        /* ------ */
+        /* -------------------------------- */
+        /* Global Button Border Radius
+	/* -------------------------------- */
+        
+        a.button,
+        input[type="submit"],
+        button,
+        .vc_btn3-container a,
+        .vc_btn3.vc_btn3-shape-rounded,
+        .header_cta_section a {
+            -webkit-border-radius: 34px !important;
+            -moz-border-radius: 34px !important;
+            border-radius: 34px !important;
+        }
+        /* ------ */
+        
+        .atss {
+            top: 70px !important;
+        }
+        
+        .at-share-btn {
+            background: transparent !important;
+        }
+        
+        .at-icon-wrapper {
+            background-color: #2a2a2a !important;
+            opacity: 0.6;
+        }
+        
+        .at-icon-wrapper:hover {
+            background-color: #e63041 !important;
+            opacity: 1;
+        }
+        /* -------------------------------- */
+        /* MediaElement.js
+	/* -------------------------------- */
+        
+        .mejs-controls {
+            background: #2a2a2a !important;
+        }
+        
+        .mejs-time-current {
+            background: #e63041 !important;
+        }
+        /* -------------------------------- */
+        /* Visual Composer
+	/* -------------------------------- */
+        
+        .dark-bg .smile_icon_list.no_bg .icon_list_icon {
+            background-color: #2a2a2a !important;
+        }
+        
+        .wpb_content_element .wpb_tabs_nav li.ui-tabs-active {
+            border-top: 2px solid #e63041;
+        }
+        
+        .wpb_accordion .ui-accordion-header-active {
+            background-color: #e63041 !important;
+        }
+        /* -------------------------------- */
+        /* Visual Composer / Ultimate VC Addons
+	/* -------------------------------- */
+        
+        .light-bg .wpb_tabs_nav li.ui-tabs-active a {
+            color: #2a2a2a !important;
+        }
+        
+        .light-bg .main-container,
+        .light-bg .jcarousel-nav.separator-with-text,
+        .light-bg .footer-shortcode {
+            background-color: #F6F6F6;
+        }
+        /* -------------------------------- */
+        /* Fonts
+	/* -------------------------------- */
+        
+        .vc_toggle_title>h4 {
+            font-family: 微软雅黑;
+            letter-spacing: -0.02em;
+        }
+        
+        .price,
+        .per_month {
+            font-family: 微软雅黑;
+            letter-spacing: -0.03em;
+            display: inline-block;
+        }
+        
+        .price {
+            font-size: 3.6em;
+            line-height: 1em;
+        }
+        
+        .dark-bg .price,
+        .dark-bg .per_month {
+            color: #fff;
+        }
+        /* -------------------------------- */
+        /* White Dropdowns
+	/* -------------------------------- */
+        
+        html body .header ul.sub-menu>li a {
+            color: #2a2a2a !important;
+        }
+        
+        body.dropdown_dark .header .topnav li.mega>ul .mega-container>li>a,
+        .mobilenav>li {
+            font-weight: 400 !important;
+            font-size: 1.07em !important;
+            letter-spacing: -0.02em !important;
+            font-family: 微软雅黑 !important;
+        }
+        
+        .header ul.sub-menu>li:hover>a {
+            color: #2a2a2a !important;
+            opacity: 1 !important;
+        }
+        
+        .topnav ul li.menu-item-has-children:after {
+            color: #2a2a2a !important;
+        }
+        
+        .topnav ul li.menu-item-has-children:hover:after {
+            color: #e63041 !important;
+        }
+        /* -------------------------------- */
+        /* Dark Dropdowns
+	/* -------------------------------- */
+        
+        body.dropdown_dark .topnav>li>ul {
+            background-color: rgba(42, 42, 42, 1) !important;
+        }
+        /* --------------------------------------------------------------------------------- */
+        /* Conditional CSS
+	/* --------------------------------------------------------------------------------- */
+        /* Stretched Content
+	/* -------------------------------- */
+        /* -------------------------------- */
+        /* -------------------------------- */
+        /* -------------------------------- */
+        
+        .main-container {
+            background-color: #F6F6F6 !important;
+        }
+        
+        .main-content h1.bordered:before,
+        .divider:after,
+        body.single-post .title_bordered .blog-meta:before,
+        .title_bordered .portfolio-filtering:before {
+            border-right: 5px solid #F6F6F6;
+        }
+        
+        .footer.dark {
+            background-color: #191919 !important;
+        }
+        /* -------------------------------- */
+        /* Custom Title Bar Color
+	/* -------------------------------- */
+        
+        .main-content .title-container.custom {
+            background-color: #ffffff;
+        }
+        
+        .main-content .title-container.custom h1,
+        .main-content .title-container.custom h2 {
+            color: #2a2a2a;
+        }
+        /*.title-container.custom .content-width div:nth-child(2) {
+		opacity: 0.8;
+	}*/
+        
+        html body .main-content #portfolio-filters li span.active,
+        html body .main-content #portfolio-filters li span:hover {
+            color: #e63041 !important;
+            opacity: 1 !important;
+        }
+        
+        .title-container.custom {
+            border-top-color: #2a2a2a;
+        }
+        
+        .title-container.custom .title_excerpt {
+            color: rgba(42, 42, 42, 0.8) !important;
+        }
+        /* -------------------------------- */
+        /* Header CTA Buttons
+	/* -------------------------------- */
+        
+        .header_cta_section a {
+            font-family: 微软雅黑 !important;
+            font-size: 0.86rem !important;
+            font-weight: 400 !important;
+            letter-spacing: 0.01rem !important;
+            text-transform: uppercase !important;
+        }
+        
+        .header.dark .header_cta_section a:hover {
+            color: rgba(42, 42, 42, 1);
+            background-color: #fff;
+            border-color: rgba(255, 255, 255, 1);
+        }
+        
+        .header.white .header_cta_section a:hover {
+            color: #ffffff;
+            background-color: #e63041;
+            border-color: #e63041;
+        }
+        /* -------------------------------- */
+        /* Standard Color Footer Links
+	/* -------------------------------- */
+        
+        .footer.dark .column-container a {
+            color: rgba(255, 255, 255, 0.85);
+        }
+        
+        .footer.dark .column-container a:hover {
+            color: #ffffff;
+        }
+        
+        .footer.light .column-container li>a {
+            color: #2a2a2a;
+        }
+        
+        .footer.light .column-container li>a:hover {
+            color: #e63041;
+        }
+        
+        .footer.white .column-container li>a {
+            color: #2a2a2a;
+        }
+        
+        .footer.white .column-container li>a:hover {
+            color: #e63041;
+        }
+        
+        .footer.light input,
+        .footer.white input {
+            border-color: rgba(0, 0, 0, 0.2) !important;
+        }
+        
+        .footer.light input[type="submit"],
+        .footer.white input[type="submit"] {
+            background-color: #2a2a2a !important;
+        }
+        
+        .footer.light a,
+        .footer.white a {
+            color: #2a2a2a !important;
+        }
+        
+        .footer.light a:hover,
+        .footer.white a:hover {
+            color: #e63041 !important;
+        }
+        
+        .main-container {
+            opacity: 0;
+        }
+        /* Top Bar Search -------------------- */
+        
+        @media only screen and (min-width: 1025px) {
+            .header .search>i {
+                height: 74px;
+                line-height: 74px;
+            }
+        }
+        
+        .header .search ::-webkit-input-placeholder {
+            color: rgba(42, 42, 42, 0.6) !important;
+        }
+        
+        .header .search :-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: rgba(42, 42, 42, 0.6) !important;
+        }
+        
+        .header .search ::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: rgba(42, 42, 42, 0.6) !important;
+        }
+        
+        .header .search :-ms-input-placeholder {
+            /* Internet Explorer 10+ */
+            color: rgba(42, 42, 42, 0.6) !important;
+        }
+        
+        .header .search .close_search i {
+            color: #2a2a2a;
+        }
+        
+        .header .search .close_search i:hover {
+            color: #e63041;
+        }
+        /* bbPress */
+        
+        .bbp-breadcrumb,
+        #bbpress-forums li.bbp-header,
+        #bbpress-forums li.bbp-footer,
+        .bbp-forum-title {
+            font-family: 微软雅黑;
+            letter-spacing: -0.02em;
+        }
+        
+        .bbp-forum-title {
+            font-size: 1.2em;
+        }
+        /* Mega menu titles */
+        
+        .topnav li.mega>ul>li>a,
+        body .topnav li.mega>ul .mega-container>li>a {
+            font-family: 微软雅黑 !important;
+            font-weight: 400 !important;
+            letter-spacing: -0.02em !important;
+            font-size: 1.07em !important;
+        }
+        
+        body.dropdown_light .topnav li.mega>ul .mega-container>li>a {
+            color: #2a2a2a !important;
+        }
+        /* White Dropdown Current Menu Item */
+        
+        html body.dropdown_light .header .topnav li>ul li.current-menu-item a {
+            color: #2a2a2a !important;
+        }
+        /* Mobile Menu Links */
+        
+        .mobilenav li {
+            font-family: 微软雅黑;
+            font-weight: 400;
+        }
+        /* Light Footer RGBA */
+        
+        .footer.light .footer-copyright,
+        .footer.white .footer-copyright {
+            color: rgba(42, 42, 42, 0.5);
+        }
+        /* Light Footer Form Focus */
+        
+        .footer.light input:focus {
+            border-color: #e63041 !important;
+        }
+        /* Blog Pagination */
+        
+        .page-numbers {
+            font-family: 微软雅黑 !important;
+            font-weight: 400 !important;
+        }
+        /* Top social icons */
+        
+        .header.white .topsocial li a:hover i,
+        .header.light .topsocial li a:hover i {
+            color: #e63041 !important;
+            opacity: 1;
+        }
+        /* Footer social icons */
+        
+        .footer.white .footer-social li a,
+        .footer.light .footer-social li a {
+            background-color: rgba(42, 42, 42, 0.3);
+        }
+        /* Basic Pricing Amount */
+        
+        body .main-content .price {
+            font-family: 微软雅黑 !important;
+            letter-spacing: -0.02em !important;
+        }
+        /* VC Grid Titles */
+        
+        .vc_gitem-post-data h3 {
+            font-family: 微软雅黑 !important;
+            font-weight: 400 !important;
+            font-size: 1.4em !important;
+        }
+        /* VC Grid Image BG */
+        
+        .vc_grid-item .vc_is-hover .vc_basix_masonry_item_image:before,
+        .vc_grid-item .vc_is-hover .vc_basix_grid_item_standard .vc_gitem-zone-a:before {
+            background-color: rgba(42, 42, 42, 0.2);
+            opacity: 1 !important;
+        }
+        
+        .vc_grid-item .vc_is-hover .vc_basix_grid_item_mouseover .vc_gitem-zone-b:before {
+            background-color: rgba(42, 42, 42, 0.8) !important;
+            opacity: 1 !important;
+        }
+        /* Default Mini Divider Color */
+        
+        .mini-divider {
+            background-color: #e63041;
+        }
+        
+        .dark-bg .mini-divider {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        /* Force Blog Grid Title Size */
+        
+        .grid .blog-post h2.inner-title,
+        .vc_gitem-post-data h4 {
+            font-size: 1.4em !important;
+        }
+        /* Formfield Focus */
+        
+        .white-form-inputs .main-content input:focus,
+        .white-form-inputs .main-content textarea:focus,
+        .white-form-inputs .main-content select:focus,
+        .white-form-inputs .footer.white input:focus,
+        .white-form-inputs .footer.light input:focus,
+        .white-form-inputs .footer.white textarea:focus,
+        .white-form-inputs .footer.light textarea:focus,
+        .white-form-inputs .footer.white select:focus,
+        .white-form-inputs .footer.light select:focus,
+        html body.transparent_header .header.white .topbar .search .searchbox input:focus {
+            border: 1px solid rgba(230, 48, 65, 1) !important;
+            /*-webkit-box-shadow: 0 0 6px rgba(230, 48, 65, 0.3), 0 0 1px rgba(230, 48, 65, 1) !important;
+	    -moz-box-shadow: 0 0 6px rgba(230, 48, 65, 0.3) !important;
+	    box-shadow: 0 0 6px rgba(230, 48, 65, 0.3) !important;*/
+        }
+        /* White forms text color */
+        
+        .light-bg input,
+        .light-bg textarea,
+        .light-bg select {
+            color: rgba(42, 42, 42, 0.8) !important;
+        }
+        /* Dark BG based formfields -------- */
+        
+        .dark-bg input,
+        .dark-bg textarea,
+        .dark-bg select {
+            color: #fff !important;
+            background-color: rgba(255, 255, 255, 0.15) !important;
+            border: none !important;
+        }
+        
+        .dark-bg input:focus,
+        .dark-bg textarea:focus,
+        .dark-bg select:focus {
+            color: rgba(42, 42, 42, 1) !important;
+            background-color: #fff !important;
+            border: none !important;
+        }
+        
+        .dark-bg ::-webkit-input-placeholder {
+            color: rgba(255, 255, 255, 0.5) !important;
+            opacity: 1 !important;
+        }
+        
+        .dark-bg *:focus::-webkit-input-placeholder {
+            color: rgba(255, 255, 255, 0.6) !important;
+            opacity: 1 !important;
+        }
+        
+        .dark-bg label.error {
+            color: #fff;
+        }
+        /* ------------- */
+        
+        .dark-bg input:focus,
+        .dark-bg textarea:focus,
+        .dark-bg select:focus {
+            border: 1px solid rgba(255, 255, 255, 0.6);
+        }
+        /* Blog List Page Title */
+        /* Owl carousel nav */
+        
+        .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+            border-color: #e63041 !important;
+        }
+        /* Bordered button */
+        
+        a.button.bordered,
+        button.bordered,
+        input.bordered[type="submit"] {
+            -webkit-box-shadow: inset 0 0 0 2px rgba(42, 42, 42, 0.3) !important;
+            -moz-box-shadow: inset 0 0 0 2px rgba(42, 42, 42, 0.3) !important;
+            box-shadow: inset 0 0 0 2px rgba(42, 42, 42, 0.3) !important;
+            color: #2a2a2a !important;
+        }
+        
+        a.button.bordered:hover,
+        button.bordered:hover,
+        input.bordered[type="submit"]:hover {
+            background-color: #e63041 !important;
+            background-image: none;
+            -webkit-box-shadow: inset 0 0 0 2px #e63041 !important;
+            -moz-box-shadow: inset 0 0 0 2px #e63041 !important;
+            box-shadow: inset 0 0 0 2px #e63041 !important;
+            color: #ffffff !important;
+        }
+        /* Recent Posts Extended Plugin */
+        
+        body .rpwe-block h3 {
+            font-size: 1.05em !important;
+            font-family: 微软雅黑 !important;
+            letter-spacing: -0.02em !important;
+            padding-left: 63px;
+            margin-bottom: 0 !important;
+            line-height: 1.4em;
+        }
+        /* Category Link Colors */
+        
+        .light-bg .grid-cat a {
+            font-size: 0.9em;
+            color: inherit;
+        }
+        
+        .light-bg .grid-cat a:hover {
+            color: #2a2a2a;
+        }
+        /* Portfolio Filter coloring */
+        
+        .post-template-default .blog-meta,
+        body.stretched_title .portfolio-filtering {
+            color: #808080;
+        }
+        /* -------------------------------- */
+        /* Custom Dropdown Color
+	/* -------------------------------- */
+        /* -------------------------------- */
+        /* Custom Fonts
+	/* -------------------------------- */
+        
+        @font-face {
+            font-family: 'Basix Montserrat Medium';
+            src: url('montserrat-semibold-webfont.eot');
+            src: url('http://iebee.cn/wp-content/themes/basix/inc/css/custom_fonts/montserrat-medium-webfont.eot?#iefix') format('embedded-opentype'), url('http://iebee.cn/wp-content/themes/basix/inc/css/custom_fonts/montserrat-medium-webfont.woff2') format('woff2'), url('http://iebee.cn/wp-content/themes/basix/inc/css/custom_fonts/montserrat-medium-webfont.woff') format('woff'), url('http://iebee.cn/wp-content/themes/basix/inc/css/custom_fonts/montserrat-medium-webfont.ttf') format('truetype'), url('http://iebee.cn/wp-content/themes/basix/inc/css/custom_fonts/montserrat-medium-webfont.svg#montserratmedium') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* -------------------------------- */
+        /* Ultimate VC Addons
+	/* -------------------------------- */
+        
+        .ubtn {
+            font-family: 微软雅黑 !important;
+            font-weight: 400 !important;
+        }
+        
+        .uvc-heading .uvc-main-heading h1 {
+            font-family: 微软雅黑 !important;
+            font-weight: 700 !important;
+        }
+        
+        body.dropdown_dark .header .topnav ul li a {
+            line-height: 1.4em !important;
+        }
+    </style>
+</head>
+
+<!-- Body -->
+
+<body class="home page page-id-3188 page-template page-template-template-stretched page-template-template-stretched-php light-bg  standard-form-inputs solid_header light_header standard_width_header animate_header transparent_header transparent_header_margin dark_transparent_header alternate_logo dropdown_dark dropdown_custom sticky_header header_search display_thumbnail custom_color stretched_title center_page_title header_nav_right wpb-js-composer js-comp-ver-5.0.1 vc_responsive">
+
+    <!-- Main Container -->
+    <div class="main-container title_custom_color">
+
+        <!-- Search -->
+        <div class="search_overlay">
+            <div class="content-width">
+                <form role="search" method="get" id="searchform" class="searchform" action="http://iebee.cn/">
+                    <input type="text" value="" name="s" placeholder="Search ..." id="s">
+                </form>
+            </div>
+            <a href="#!" class="close">
+                <i class="FontAwesome-close"></i>
+            </a>
+        </div>
+
+        <!-- Top Bar - Set "white" or "dark" below -->
+        <div class="header white">
+            <div class="topbar content-width">
+                <div class="topbar-content-container">
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="home">前程
+                            <span>科技</span>
+                        </a>
+                    </div>
+                    <!-- END Logo -->
+
+                    <!-- Social Icons -->
+                    <ul class="topsocial">
+                        <script type="text/javascript">
+                            function showImg() {
+                                document.getElementById("wxImg").style.display = "block";
+                            }
+
+                            function hideImg() {
+                                document.getElementById("wxImg").style.display = "none";
+                            }
+                        </script>
+                        <li>
+                            <a href="javascript:void(0)" onMouseOut="hideImg()" onmouseover="showImg()">
+                                <i class="FontAwesome-weixin"></i>
+                                <div class="basix-tooltip">微信</div>
+                            </a>
+                            <div id="wxImg" style="display:none;height:50px;position:absolute;">
+                                <img style="border:1px solid #eee;background:#fff;width:250px;height:auto;position:relative;right:0;z-index:9999" src="http://iebee.cn/wp-content/uploads/2018/01/erweima.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://weibo.com/beetube/home?wvr=5">
+                                <i class="FontAwesome-weibo"></i>
+                                <div class="basix-tooltip">新浪微博</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">
+                                <i class="FontAwesome-tencent-weibo"></i>
+                                <div class="basix-tooltip">腾讯微博</div>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <!-- END Social Icons -->
+
+                    <!-- Main Navigation -->
+                    <div class="menu-nav-container">
+                        <ul id="menu-nav" class="topnav">
+                            <li id="menu-item-11254" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3188 current_page_item menu-item-11254">
+                                <a href="/home">首页</a>
+                            </li>
+                            <li id="menu-item-11260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11260">
+                                <a href="/about">关于我们</a>
+                            </li>
+                            <li id="menu-item-11267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11267">
+                                <a href="services">服务类型</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-11323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11323">
+                                        <a href="/offical">官网建设</a>
+                                    </li>
+                                    <li id="menu-item-11294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11294">
+                                        <a href="/election">电子商务</a>
+                                    </li>
+                                    <li id="menu-item-11293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11293">
+                                        <a href="/industry">行业门户</a>
+                                    </li>
+                                    <li id="menu-item-11301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11301">
+                                        <a href="/app">移动开发</a>
+                                    </li>
+                                    <li id="menu-item-11308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11308">
+                                        <a href="/interaction">互动营销</a>
+                                    </li>
+                                    <li id="menu-item-11317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11317">
+                                        <a href="/we-chat">微信开发</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-11273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11273">
+                                <a href="/news-2">最新案例</a>
+                            </li>
+                            <li id="menu-item-11270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11270">
+                                <a href="/news">新闻资讯</a>
+                            </li>
+                            <li id="menu-item-11280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11280">
+                                <a href="/job">人才招聘</a>
+                            </li>
+                            <li id="menu-item-11283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11283">
+                                <a href="/contact">联系我们</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END Main Navigation -->
+
+                    <div class="stretch"></div>
+
+
+                    <!-- Search -->
+                    <a href="#!" class="search-click"></a>
+
+                    <!-- Mobile Navigation -->
+
+                    <!-- Show/Hide Menu Button -->
+                    <a href="#!" class="mobilenav-click">
+                        <div class="mobilenav-button-container">
+                            <div class="mobilenav-button-inner">
+                                <div class="mobilenav-button"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- END Show/Hide Menu Button -->
+
+                    <!-- Navigation Menu (Populated using jQuery) -->
+                    <div class="mobilenav-container">
+                        <ul class="mobilenav"></ul>
+                    </div>
+                    <!-- END Navigation Menu -->
+
+                    <!-- END Mobile Navigation -->
+
+                </div>
+            </div>
+        </div>
+        <!-- END Top Bar -->
+        {% block content %} {%endblock%}
+        <!-- Footer Container -->
+        <div class="footer-container dark dark-bg">
+
+
+            <!-- Footer -->
+
+            <div class="footer dark dark-bg ">
+
+
+                <div class="content-width">
+                    <div class="column-container">
+                        <!-- Four Columns -->
+                        <div class="column-one-fourth">
+                            <div id="text-2" class="widget widget_text">
+                                <div class="textwidget">
+                                    <img src="/images/iebee.png" style="width: 90%; height: auto; opacity: 1;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-one-fourth">
+                            <div id="recent-posts-3" class="widget widget_recent_entries">
+                                <h3>最新资讯</h3>
+                                <ul>
+                                    <li>
+                                        <a href="http://iebee.cn/2018/03/19/message/">网页上的留白会让你的网站更专业</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://iebee.cn/2018/03/17/website-title/">更为搜索引擎所偏爱的网站标题是怎样设置的？</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://iebee.cn/2018/03/16/optimization-key-words/">如何优化关键词</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://iebee.cn/2018/03/15/key-word-2/">关键词选取的那些小心机</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://iebee.cn/2018/03/14/the-chain/">友情外链有多重要？</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="column-one-fourth">
+                            <div id="basix_portfolio_widget-3" class="widget widget_basix_portfolio_widget">
+                                <h3>精彩案例</h3>
+                                <div class="portfolio-widget-container">
+                                    <div class="portfolio-widget-item grid-item">
+                                        <!-- Image -->
+                                        <a href="http://iebee.cn/portfolio/11594/" class="link_image aspect_4-3" style="background-image:url('http://iebee.cn/wp-content/uploads/2018/03/qiancheng.png'); border-radius: 2px;"></a>
+                                    </div>
+                                    <div class="portfolio-widget-item grid-item">
+                                        <!-- Image -->
+                                        <a href="http://iebee.cn/portfolio/z/" class="link_image aspect_4-3" style="background-image:url('http://iebee.cn/wp-content/uploads/2018/01/z-1.png'); border-radius: 2px;"></a>
+                                    </div>
+                                    <div class="portfolio-widget-item grid-item">
+                                        <!-- Image -->
+                                        <a href="http://iebee.cn/portfolio/background/" class="link_image aspect_4-3" style="background-image:url('http://iebee.cn/wp-content/uploads/2018/01/shop.png'); border-radius: 2px;"></a>
+                                    </div>
+                                    <div class="portfolio-widget-item grid-item">
+                                        <!-- Image -->
+                                        <a href="http://iebee.cn/portfolio/shop-s/" class="link_image aspect_4-3" style="background-image:url('http://iebee.cn/wp-content/uploads/2018/01/shangchengs-1.png'); border-radius: 2px;"></a>
+                                    </div>
+                                    <div class="portfolio-widget-item grid-item">
+                                        <!-- Image -->
+                                        <a href="http://iebee.cn/portfolio/game/" class="link_image aspect_4-3" style="background-image:url('http://iebee.cn/wp-content/uploads/2018/01/qile.png'); border-radius: 2px;"></a>
+                                    </div>
+                                    <div class="portfolio-widget-item grid-item">
+                                        <!-- Image -->
+                                        <a href="http://iebee.cn/portfolio/newland/" class="link_image aspect_4-3" style="background-image:url('http://iebee.cn/wp-content/uploads/2018/01/niulan.png'); border-radius: 2px;"></a>
+                                    </div>
+                                    <div class="portfolio-widget-item grid-item">
+                                        <!-- Image -->
+                                        <a href="http://iebee.cn/portfolio/milk/" class="link_image aspect_4-3" style="background-image:url('http://iebee.cn/wp-content/uploads/2018/01/naicha.png'); border-radius: 2px;"></a>
+                                    </div>
+                                    <div class="portfolio-widget-item grid-item">
+                                        <!-- Image -->
+                                        <a href="http://iebee.cn/portfolio/blue-glod/" class="link_image aspect_4-3" style="background-image:url('http://iebee.cn/wp-content/uploads/2018/01/lanjin.png'); border-radius: 2px;"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-one-fourth">
+                            <div id="basix_social_widget-2" class="widget widget_basix_social_widget">
+                                <h3>社交图标</h3>
+                                <div class="big_icons">
+                                    <ul class="social-icons" style="">
+                                        <script type="text/javascript">
+                                            function showImg2() {
+                                                document.getElementById("wxImg2").style.display = "block";
+                                            }
+
+                                            function hideImg2() {
+                                                document.getElementById("wxImg2").style.display = "none";
+                                            }
+                                        </script>
+                                        <li class="weixin">
+                                            <a href="javascript:void(0)" onMouseOut="hideImg2()" onmouseover="showImg2()">
+                                                <i class="FontAwesome-weixin"></i>
+                                                <div class="basix-tooltip">微信</div>
+                                            </a>
+                                            <div id="wxImg2" style="display:none;height:50px;position:absolute;">
+                                                <img style="border:1px solid #eee;background:#fff;width:200px;height:auto" src="http://iebee.cn/wp-content/uploads/2018/01/erweima.jpg">
+                                            </div>
+                                        </li>
+
+                                        <li class="weibo">
+                                            <a target="_blank" href="https://weibo.com/beetube/home?wvr=5">
+                                                <i class="FontAwesome-weibo"></i>
+                                                <div class="basix-tooltip">新浪微博</div>
+                                            </a>
+                                        </li>
+                                        <li class="tqq">
+                                            <a target="_blank" href="#">
+                                                <i class="FontAwesome-tencent-weibo"></i>
+                                                <div class="basix-tooltip">腾讯微博</div>
+                                            </a>
+                                        </li>
+                                        <li class="renren">
+                                            <a target="_blank" href="#">
+                                                <i class="FontAwesome-renren"></i>
+                                                <div class="basix-tooltip">人人网</div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="text-3" class="widget widget_text">
+                                <h3>联系信息</h3>
+                                <div class="textwidget">
+                                    <p>联系电话: 18235680917
+                                        <br> 电子邮箱:
+                                        <a href="mailto:itcompany@foxmail.com">itcomapany@foxmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Footer Lower Bar -->
+                <div class="footer-lower-container solid ">
+                    <div class="content-width">
+                        <div class="footer-lower-inner">
+
+                            <!-- Lower Left -->
+                            <div class="footer-lower-left">
+                                前程科技
+                                <i class="FontAwesome-heart" style="color: #e62b4e !important;"></i>最懂您的网络建设云平台
+                                <a href="http://themeforest.net/user/artivity?ref=Artivity" target="_blank"></a>. </div>
+                            <!-- END Lower Left -->
+
+                            <!-- Lower Right -->
+                            <div class="footer-lower-right">
+                                Copyright ©
+                                <a href="http://itbee.cn" target="_blank">Artivity</a>. All rights reserved. </div>
+                            <!-- END Lower Left -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- END Footer Lower Bar -->
+
+
+            </div>
+
+            <!-- END Footer -->
+
+
+            <!-- Top of Page Link -->
+            <a class="top-of-page-link" href="#">
+                <i class="FontAwesome-chevron-up"></i>
+            </a>
+
+        </div>
+        <!-- END Footer Container -->
+
+    </div>
+    <!-- END Main Container -->
+
+    <div class="float-right-box on">
+        <div class="top-list">
+            <ul>
+                <li>
+                    <a class="f-cb return-webtop" href="javascript:;">
+                        <span class="fl stt">TOP</span>
+                        <span class="ico ico5"></span>
+                    </a>
+                </li>
+                <li>
+                    <a class="f-cb" href="http://wpa.qq.com/msgrd?v=3&amp;uin=910279464&amp;site=qq&amp;menu=yes" target="_blank">
+                        <span class="fl stt">QQ咨询</span>
+                        <span class="ico ico2"></span>
+                    </a>
+                </li>
+                <li>
+                    <a class="f-cb" href="tel:18235680917" target="_blank">
+                        <span class="fl stt">联系电话</span>
+                        <span class="ico ico3"></span>
+                    </a>
+                </li>
+                <li>
+                    <a class="f-cb" href="mail:itcompany@foxmail.com" target="_blank">
+                        <span class="fl stt">电子邮箱</span>
+                        <span class="ico ico8"></span>
+                    </a>
+                </li>
+                <li>
+                    <a class="f-cb" href="http://itbee.cn" target="_blank">
+                        <span class="fl stt">了解更多</span>
+                        <span class="ico ico6"></span>
+                    </a>
+                </li>
+                <li>
+                    <a class="f-cb">
+                        <span class="fl stt">微信咨询</span>
+                        <span class="ico ico9"></span>
+                    </a>
+                    <img src="http://iebee.cn/wp-content/uploads/2018/01/erweima.jpg" width="200" height="200">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <style type="text/css">
+        .float-right-box,
+        .float-right-box .top-list .ico3,
+        .float-right-box .top-list .ico2,
+        .float-right-box .top-list .ico6,
+        .float-right-box .top-list .ico7,
+        .float-right-box .top-list .ico5,
+        .float-right-box .top-list .ico8,
+        .float-right-box .top-list .ico9 {
+            background-color: #e63041 !important;
+        }
+        
+        .float-right-box .top-list li:hover .ico2,
+        .float-right-box .top-list li:hover .ico6,
+        .float-right-box .top-list li:hover .ico7,
+        .float-right-box .top-list li:hover .ico5,
+        .float-right-box .top-list li:hover .ico8,
+        .float-right-box .top-list li:hover .ico9,
+        .float-right-box .top-list li:hover .ico3 {
+            background-color: #fff !important;
+        }
+        
+        .float-right-box .top-list li {
+            border-bottom: 1px solid #ffffff !important;
+        }
+    </style>
+    <script type="text/javascript">
+        function revslider_showDoubleJqueryError(sliderID) {
+            var errorMessage =
+                "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+            errorMessage +=
+                "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+            errorMessage +=
+                "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+            errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+            errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+            jQuery(sliderID).show().html(errorMessage);
+        }
+    </script>
+    <link rel='stylesheet' id='dj-kefu-css-css' href='http://iebee.cn/wp-content/plugins/dj-kefu/css/dj-kefu.css?ver=4.6.11' type='text/css' media='all' />
+    <script type='text/javascript' src='http://iebee.cn/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='http://iebee.cn/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='http://iebee.cn/wp-content/themes/basix/inc/js/functions.js?ver=4.6.11'></script>
+    <script type='text/javascript' src='http://iebee.cn/wp-content/themes/basix/inc/js/masonry.pkgd.min.js?ver=4.6.11'></script>
+    <script type='text/javascript' src='http://iebee.cn/wp-includes/js/wp-embed.min.js?ver=4.6.11'></script>
+    <script type='text/javascript' src='http://iebee.cn/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.0.1'></script>
+    <script type='text/javascript' src='http://iebee.cn/wp-content/themes/basix/inc/js/jquery.jcarousel.min.js?ver=4.6.11'></script>
+    <script type='text/javascript' src='http://iebee.cn/wp-content/themes/basix/inc/js/jquery.touchSwipe.min.js?ver=4.6.11'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var carouselvars5b06a3aa31be5 = {
+            "amount": "1",
+            "autoscroll": "",
+            "scroll": "",
+            "wrap": "circular",
+            "uniqid": "5b06a3aa31be5"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='http://iebee.cn/wp-content/themes/basix/inc/shortcodes/js/carouselConfig.js?ver=4.6.11'></script>
+    <script type='text/javascript' src='http://iebee.cn/wp-content/plugins/dj-kefu/js/dj-kefu.js?ver=4.6.11'></script>
+</body>
+
+</html>
